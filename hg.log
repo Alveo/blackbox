@@ -1,0 +1,3671 @@
+changeset:   651:451e9b3e509b
+bookmark:    master
+tag:         tip
+user:        Steve Cassidy <steve.cassidy@gmail.com>
+date:        Fri Oct 07 14:55:05 2022 +1100
+summary:     update
+
+changeset:   650:819dcc9dcb92
+parent:      649:daf50e8238cc
+parent:      648:71e409bb09c1
+user:        stevecassidy
+date:        Tue Apr 14 23:04:22 2015 +1000
+summary:     Merge with CompressUploadRefactor
+
+changeset:   649:daf50e8238cc
+parent:      639:da14b197b195
+user:        stevecassidy
+date:        Tue Apr 14 23:02:28 2015 +1000
+summary:     Add script to upload from the command line.
+
+changeset:   648:71e409bb09c1
+branch:      CompressUploadRefactor
+user:        Steve Cassidy
+date:        Wed Jan 21 17:25:57 2015 +1100
+summary:     Add component and session identifiers for Emotional speech collection to support upload (prompts etc not added)
+
+changeset:   647:af383f0f2ea9
+branch:      CompressUploadRefactor
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Apr 15 22:16:37 2014 +1000
+summary:     typo
+
+changeset:   646:2253b3737453
+branch:      CompressUploadRefactor
+user:        Steve Cassidy
+date:        Tue Apr 15 18:28:01 2014 +1000
+summary:     fixes to rename script
+
+changeset:   645:e0603ca0f6f5
+branch:      CompressUploadRefactor
+parent:      644:063f6c2116c3
+parent:      643:4a4f5ed11f1d
+user:        steve
+date:        Wed Oct 31 12:24:54 2012 +1100
+summary:     Merge with 4a4f5ed11f1de855c3232a9a88931ac50d65c274
+
+changeset:   644:063f6c2116c3
+branch:      CompressUploadRefactor
+parent:      640:eacff09a49fb
+user:        steve
+date:        Wed Oct 31 12:24:34 2012 +1100
+summary:     add option to download digits to downloader
+
+changeset:   643:4a4f5ed11f1d
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Thu Oct 18 00:09:49 2012 +1100
+summary:     Added an ignore step for manifest errors when renaming, this is because we can regenerate the manifest afterwards.
+
+changeset:   642:dd488204b087
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Thu Oct 18 00:07:35 2012 +1100
+summary:     Added an ignore step for manifest errors when renaming, this is because we can regenerate the manifest afterwards.
+
+changeset:   641:b7937a6d1cff
+parent:      639:da14b197b195
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed Oct 17 20:22:13 2012 +1100
+summary:     Worked on and updated rename.py script to support renaming of speakers.
+
+changeset:   640:eacff09a49fb
+branch:      CompressUploadRefactor
+parent:      637:2df624428f96
+parent:      639:da14b197b195
+user:        steve
+date:        Tue Oct 16 10:58:14 2012 +1100
+summary:     Merge with da14b197b1951f2016db21efa720e69a2592a678
+
+changeset:   639:da14b197b195
+user:        stevecassidy
+date:        Mon Oct 15 17:17:54 2012 +1100
+summary:     Added tag release-1-7 for changeset 57f61671a026
+
+changeset:   638:57f61671a026
+tag:         release-1-7
+parent:      636:470246518afb
+user:        stevecassidy
+date:        Mon Oct 15 17:17:36 2012 +1100
+summary:     remove  yet another page number!
+
+changeset:   637:2df624428f96
+branch:      CompressUploadRefactor
+parent:      632:a81efe04cc30
+user:        steve
+date:        Tue Oct 16 09:48:00 2012 +1100
+summary:     catch another exception.  Exception on download was crashing for some reason for unbound 'ex' - removed reference to this variable but can't see why it would be wrong.
+
+changeset:   636:470246518afb
+user:        stevecassidy
+date:        Thu Oct 11 19:42:51 2012 +1100
+summary:     Added tag release-1-7 for changeset 609d3e0291a9
+
+changeset:   635:609d3e0291a9
+user:        steve
+date:        Thu Oct 11 19:38:32 2012 +1100
+summary:     fix item format in component/session list
+
+changeset:   634:41f7b57cd8c7
+user:        stevecassidy
+date:        Thu Oct 11 19:31:20 2012 +1100
+summary:     regenerate map files
+
+changeset:   633:b7f7ebf3655d
+parent:      627:ac80c0fa71db
+user:        stevecassidy
+date:        Thu Oct 11 19:28:12 2012 +1100
+summary:     Remove page numbers from slides.
+
+changeset:   632:a81efe04cc30
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@gmail.com>
+date:        Thu Oct 11 13:18:11 2012 +1100
+summary:     Added an exception handler
+
+changeset:   631:a270398f7c28
+branch:      CompressUploadRefactor
+parent:      621:b42911a6bca5
+user:        Shirren Premaratne <shirren.premaratne@gmail.com>
+date:        Thu Oct 11 12:25:04 2012 +1100
+summary:     The downloader can no recommence downloads upon termination. In addition failed downloads are re-attempted on a redownload attempt.
+
+changeset:   630:646ceaf29d05
+branch:      SetupToolsReorg
+user:        steve
+date:        Thu Oct 11 16:53:31 2012 +1100
+summary:     change overall package name to blackbox with sub-packages. Started renaming internal imports but it will be hard to do and hard to ensure we didn't stuff up...giving up.
+
+changeset:   629:ae1465fc1527
+branch:      SetupToolsReorg
+user:        steve
+date:        Thu Oct 11 16:01:07 2012 +1100
+summary:     Add setup.py and an empty init for the blackbox package, this enables building a distribution that can be installed (without the binary files).
+
+changeset:   628:d68748dd8e8c
+branch:      SetupToolsReorg
+user:        steve
+date:        Thu Oct 11 15:56:40 2012 +1100
+summary:     Starting 'SetupToolsReorg' branch
+
+changeset:   627:ac80c0fa71db
+user:        stevecassidy
+date:        Wed Oct 10 17:21:36 2012 +1100
+summary:     Added tag release-1-7 for changeset a3fcc1aa3d54
+
+changeset:   626:a3fcc1aa3d54
+user:        stevecassidy
+date:        Wed Oct 10 17:20:09 2012 +1100
+summary:     Add prompt images for new versions of words
+
+changeset:   625:7e70f31ba081
+user:        steve
+date:        Wed Oct 10 17:03:13 2012 +1100
+summary:     change references to components in sessions to use new word lists
+
+changeset:   624:108c13812d15
+user:        steve
+date:        Wed Oct 10 17:01:57 2012 +1100
+summary:     Fix prompts in new word lists (numbers got added) and regenerate map files.
+
+changeset:   623:d2f8458fcb69
+parent:      622:4192b9f33318
+parent:      621:b42911a6bca5
+user:        steve
+date:        Wed Oct 10 15:50:30 2012 +1100
+summary:     Merge with b42911a6bca59d462e4e40abf186e439713cc924
+
+changeset:   622:4192b9f33318
+parent:      619:deb8d72081e5
+user:        steve
+date:        Wed Oct 10 14:37:54 2012 +1100
+summary:     Modify prompts in words components to fix 'hooll sounds like tool' problem.  Now have two versions of all words components with different numbers.  Retrospectively change old prompts to 'hool sounds like tool'.
+
+changeset:   621:b42911a6bca5
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed Oct 10 14:15:11 2012 +1100
+summary:     Added support for the -s command line switch which process a file with a list of sites and speakers
+
+changeset:   620:223f33772562
+branch:      CompressUploadRefactor
+parent:      610:582ad0ec6449
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed Oct 10 12:37:34 2012 +1100
+summary:     Modified the downloader to support the download of multiple speakers via the console.
+
+changeset:   619:deb8d72081e5
+user:        steve
+date:        Wed Oct 03 17:09:14 2012 +1000
+summary:     remove duplicate declaration of component 32 (words session 3)
+
+changeset:   618:4bff1674e2e2
+user:        stevecassidy
+date:        Tue Oct 02 16:09:45 2012 +1000
+summary:     Added tag release-1-7 for changeset 17c244fddbf8
+
+changeset:   617:17c244fddbf8
+user:        stevecassidy
+date:        Tue Oct 02 16:09:28 2012 +1000
+summary:     Increment version for 1.7 release
+
+changeset:   616:df036eb00322
+parent:      615:1242e66a6d3a
+parent:      613:b691ec7e098d
+user:        stevecassidy
+date:        Tue Oct 02 14:46:57 2012 +1000
+summary:     Merge with b691ec7e098dd092506468f02d7c359b69549f97
+
+changeset:   615:1242e66a6d3a
+user:        stevecassidy
+date:        Thu Sep 27 16:04:36 2012 +1000
+summary:     remove slide numbers from some prompt slides and regenerate images
+
+changeset:   614:08ad1a1ddb0b
+parent:      612:fc579f821dbc
+user:        stevecassidy
+date:        Thu Sep 27 16:04:04 2012 +1000
+summary:     increment version
+
+changeset:   613:b691ec7e098d
+user:        steve
+date:        Fri Sep 28 14:26:33 2012 +1000
+summary:     Add new field to component to record a short name for use in published URLs
+
+changeset:   612:fc579f821dbc
+user:        stevecassidy
+date:        Wed Sep 05 17:39:43 2012 +1000
+summary:     Duplicate words-session2 component and fix heen-heed error.
+
+changeset:   611:3a98d625a6a0
+user:        stevecassidy
+date:        Mon Sep 03 15:43:09 2012 +1000
+summary:     Re-Starting 'default' branch
+
+changeset:   610:582ad0ec6449
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@gmail.com>
+date:        Thu Aug 09 15:11:31 2012 +1000
+summary:     Removed transcription utility script files out of blackbox project
+
+changeset:   609:949b709630e4
+branch:      CompressUploadRefactor
+user:        steve
+date:        Tue Aug 07 11:14:57 2012 +1000
+summary:     Add upload_item script to compress and upload a single item from the command line
+
+changeset:   608:b97670672930
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Mon Jul 30 13:18:39 2012 +1000
+summary:     Bug fix in findComponents which was not following symbolic links
+
+changeset:   607:ef36923a11a2
+branch:      CompressUploadRefactor
+parent:      606:be5cfbff6cd4
+parent:      605:cf0f0ad00eb6
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Mon Jul 30 12:18:50 2012 +1000
+summary:     Merged
+
+changeset:   606:be5cfbff6cd4
+branch:      CompressUploadRefactor
+parent:      602:0148204ffd82
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Mon Jul 30 12:17:34 2012 +1000
+summary:     Added manifest regenratiion functionality
+
+changeset:   605:cf0f0ad00eb6
+branch:      CompressUploadRefactor
+parent:      604:aa8543239f60
+parent:      602:0148204ffd82
+user:        stevecassidy
+date:        Mon Jul 30 09:53:35 2012 +1000
+summary:     Merge with 0148204ffd82ef315d33bbe0c558314c0e76c55c
+
+changeset:   604:aa8543239f60
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Mon Jul 30 09:52:04 2012 +1000
+summary:     updates to explorer tool and version increment
+
+changeset:   603:0193e446e13a
+branch:      CompressUploadRefactor
+parent:      599:b1e1ddaca6a5
+user:        stevecassidy
+date:        Fri Jul 27 15:11:49 2012 +1000
+summary:     A few updates to the new explorer tool, make the names used in the display conform to our standard layout, give it an icon in the installer.
+
+changeset:   602:0148204ffd82
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Sun Jul 29 21:45:58 2012 +1000
+summary:     Fixed bug in rename which was not regenerating the manifest.txt file
+
+changeset:   601:3a489e64944f
+branch:      CompressUploadRefactor
+parent:      600:f54cef75f996
+parent:      599:b1e1ddaca6a5
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Fri Jul 27 15:38:41 2012 +1000
+summary:     Merged changes locally
+
+changeset:   600:f54cef75f996
+branch:      CompressUploadRefactor
+parent:      595:6ccb2d8c2d65
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Fri Jul 27 15:37:35 2012 +1000
+summary:     Date filter removed for query.py -o flag
+
+changeset:   599:b1e1ddaca6a5
+branch:      CompressUploadRefactor
+user:        steve
+date:        Fri Jul 27 13:18:46 2012 +1000
+summary:     Fix up metadata generation in different circumstances.
+
+changeset:   598:7d1f686cf744
+branch:      CompressUploadRefactor
+parent:      597:fb153673e7bf
+parent:      595:6ccb2d8c2d65
+user:        Steve Cassidy
+date:        Thu Jul 26 13:45:30 2012 +1000
+summary:     merge
+
+changeset:   597:fb153673e7bf
+branch:      CompressUploadRefactor
+user:        Steve Cassidy
+date:        Thu Jul 26 13:45:22 2012 +1000
+summary:     ensure we grab missing camera data
+
+changeset:   596:545822304f4a
+branch:      CompressUploadRefactor
+parent:      565:f31555555710
+user:        steve
+date:        Tue May 15 10:43:15 2012 +1000
+summary:     Add component details for renamed sentences
+
+changeset:   595:6ccb2d8c2d65
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Mon Jul 23 12:00:08 2012 +1000
+summary:     Added speaker details to the name attribute of the speaker node
+
+changeset:   594:40d075d3f218
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Mon Jul 23 11:05:02 2012 +1000
+summary:     Connected add speaker algorithm to transcribe console app
+
+changeset:   593:55845d5948bf
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Sun Jul 22 00:54:11 2012 +1000
+summary:     Algorithm complete
+
+changeset:   592:bf29f6bd3105
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Sat Jul 21 23:46:39 2012 +1000
+summary:     Added process.py
+
+changeset:   591:b53887bad4d6
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Sat Jul 21 21:29:29 2012 +1000
+summary:     Started worker on process.py for speaker addendum to trs files
+
+changeset:   590:aace7f8c865b
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Sat Jul 21 17:12:44 2012 +1000
+summary:     Pushing functions from transcribe.py into file_handler.
+
+changeset:   589:c7a2dc4ef683
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Fri Jul 20 23:56:36 2012 +1000
+summary:     Added trs file generator with speaker nodes
+
+changeset:   588:7407f570efb7
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Fri Jul 20 13:22:21 2012 +1000
+summary:     Fixed incorrect logical condition in query component
+
+changeset:   587:fbab546913bb
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Fri Jul 20 13:14:29 2012 +1000
+summary:     Refactored and created a Meta class
+
+changeset:   586:9d145f8fa9c7
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Fri Jul 20 12:56:46 2012 +1000
+summary:     Refactored and created a Meta class
+
+changeset:   585:4f59580ebbf2
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Fri Jul 20 00:11:36 2012 +1000
+summary:     Refactored browser.py to use it's own browse method
+
+changeset:   584:ef59a4657408
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Thu Jul 19 23:55:03 2012 +1000
+summary:     Further work on inspecting maptask meta data.
+
+changeset:   583:2f134668c111
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Thu Jul 19 18:58:11 2012 +1000
+summary:     Added a mixin for handling files albeit a simple one.
+
+changeset:   582:407b157d3124
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Thu Jul 19 17:10:00 2012 +1000
+summary:     Added tests for trs.py, still broken will fix them.
+
+changeset:   581:20104499a804
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Jul 19 13:00:35 2012 +1000
+summary:     Refactoring transcribe.py by introducing more modules
+
+changeset:   580:140b8a3cf5fb
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Mon Jul 09 14:53:09 2012 +1000
+summary:     Added search function to transcribe.py
+
+changeset:   579:5417c8bacce1
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Mon Jul 09 14:41:50 2012 +1000
+summary:     Added search function to transcribe.py
+
+changeset:   578:d8e1d8567bff
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Fri Jul 06 00:22:00 2012 +1000
+summary:     Added some additional error handling to transcribe.py
+
+changeset:   577:ad60afc528a5
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Jul 05 22:46:47 2012 +1000
+summary:     Added some additional error handling to transcribe.py
+
+changeset:   576:09bdb6270239
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Jul 05 21:51:03 2012 +1000
+summary:     Fixed bug in transcribe.py where when generating bpf files the application foolishly assumes that words are separated by a single space only.
+
+changeset:   575:ac893d7d8b7c
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Tue Jul 03 11:40:04 2012 +1000
+summary:     Trs does not require extension.
+
+changeset:   574:f424e3cf4107
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Tue Jul 03 11:35:10 2012 +1000
+summary:     Fixed issue with time interval of trs file
+
+changeset:   573:e548c2f8a878
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Tue Jul 03 11:03:26 2012 +1000
+summary:     Added support to transcribe.py to generate trs file for dual sources.
+
+changeset:   572:839314b86b08
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Tue Jun 26 10:11:17 2012 +1000
+summary:     Transcribe.py now copies the BPF files and audio files to a particular destination.
+
+changeset:   571:8adcc65a2910
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Sun Jun 24 11:17:16 2012 +1000
+summary:     Removed trailing and leading / from the trs while when generating
+
+changeset:   570:cbe96a135431
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Jun 21 14:12:59 2012 +1000
+summary:     Added functionality to transcribe.py to generate bpf files.
+
+changeset:   569:a94d30ada34c
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Tue Jun 12 14:35:53 2012 +1000
+summary:     Modified transcribe to process story files
+
+changeset:   568:3746099cda0b
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Wed May 30 22:53:45 2012 +1000
+summary:     Improved download feedback message.
+
+changeset:   567:aba1bff2e80a
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Wed May 30 21:21:07 2012 +1000
+summary:     Added a progress indicator to the download script.
+
+changeset:   566:454b67144373
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed May 30 16:59:16 2012 +1000
+summary:     Added downloader to blackbox project
+
+changeset:   565:f31555555710
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Thu May 10 21:23:04 2012 +1000
+summary:     Moved log files to /var/tmp from __file__ location.
+
+changeset:   564:c170a9729c24
+branch:      CompressUploadRefactor
+parent:      563:43eb6fda881c
+parent:      562:49ab82164ee1
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Thu May 10 20:48:22 2012 +1000
+summary:     Merged
+
+changeset:   563:43eb6fda881c
+branch:      CompressUploadRefactor
+parent:      561:b4621b816ebb
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Thu May 10 20:47:21 2012 +1000
+summary:     Fixed the broken mapping file. Uodated the sentence renamer to work at the component level instead of the item level. However, logging remains at the item level.
+
+changeset:   562:49ab82164ee1
+branch:      CompressUploadRefactor
+user:        steve
+date:        Thu May 10 15:54:40 2012 +1000
+summary:     correct some mappings
+
+changeset:   561:b4621b816ebb
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Wed May 09 15:40:35 2012 +1000
+summary:     Added a check to see if the backup of the meta data is successful
+
+changeset:   560:e45e41a8cd74
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Mon May 07 16:42:48 2012 +1000
+summary:     Added a print statement so we know something is happening as we generate the transcriptions
+
+changeset:   559:12e6a490f8f0
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Mon May 07 16:39:17 2012 +1000
+summary:     Added a new transcription python module.
+
+changeset:   558:95a720d10e76
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Fri May 04 13:53:49 2012 +1000
+summary:     Added mapping file.
+
+changeset:   557:119e615d53d0
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Fri May 04 13:38:37 2012 +1000
+summary:     Revised code to rename item and component instead of just the prompt.
+
+changeset:   556:2eef827634ee
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu May 03 17:44:49 2012 +1000
+summary:     Sample no needs to be cast to int before comparison
+
+changeset:   555:cce557507627
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu May 03 17:25:09 2012 +1000
+summary:     Added csv extract of xls document for use on Bigasc
+
+changeset:   554:c4e756818aa3
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu May 03 17:19:24 2012 +1000
+summary:     Forgot to uncomment an important line in the renamer
+
+changeset:   553:c8a4c490465a
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu May 03 17:17:03 2012 +1000
+summary:     Added a feature to backup metadata prior to update. Also extended logger to return its name
+
+changeset:   552:05b727c6e83d
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu May 03 14:41:41 2012 +1000
+summary:     Sort was not working properly, hopefully fixed now.
+
+changeset:   551:cc38ec89d2bf
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu May 03 14:21:43 2012 +1000
+summary:     Fixed chronological sorter in query component
+
+changeset:   550:fc87f6c611de
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu May 03 11:08:12 2012 +1000
+summary:     Switched rename.py to use RecordedItem.
+
+changeset:   549:2dca77ff84e0
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu May 03 10:36:42 2012 +1000
+summary:     A little bit of refactoring in the query component.
+
+changeset:   548:18af8339943c
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed May 02 16:53:38 2012 +1000
+summary:     Fix to cater for issue with Queensland data
+
+changeset:   547:e8b5f7b34b7c
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed May 02 15:44:12 2012 +1000
+summary:     Added support for showing min and max dates for a collection.
+
+changeset:   546:f9c0765dcdec
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed May 02 14:54:52 2012 +1000
+summary:     Changed the query component to predicate on date instead of version as the
+
+changeset:   545:b3fa7f9fbdf4
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed May 02 11:07:42 2012 +1000
+summary:     Added a new feature to query the minimum and maximum version for a session and component in a collection
+
+changeset:   544:552c634b511c
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed May 02 10:49:02 2012 +1000
+summary:     Removed print statement in query component which flooded the console with lots
+
+changeset:   543:19d19f5fd3e3
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren2010@gmail.com>
+date:        Wed May 02 10:39:18 2012 +1000
+summary:     Added support for using max version numbers for filtering the result sets
+
+changeset:   542:10b5827f98d4
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Tue May 01 19:41:39 2012 +1000
+summary:     WIP, resolved to using rsync for the renaming script.
+
+changeset:   541:0e1c06db8819
+branch:      CompressUploadRefactor
+parent:      540:f65a21fd988b
+parent:      539:26b2ca2abbfb
+user:        shirren
+date:        Tue May 01 19:25:07 2012 +1000
+summary:     Merge with 26b2ca2abbfb778be05eadc6f6c54f22c26450bc
+
+changeset:   540:f65a21fd988b
+branch:      CompressUploadRefactor
+parent:      538:0dfc1149545e
+user:        shirren
+date:        Tue May 01 19:18:41 2012 +1000
+summary:     Made passing the XL spreadsheet to the query script optional.
+
+changeset:   539:26b2ca2abbfb
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Tue May 01 19:18:41 2012 +1000
+summary:     Made passing the XL spreadsheet to the query script optional.
+
+changeset:   538:0dfc1149545e
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Tue May 01 19:09:02 2012 +1000
+summary:     Added mapping spreadsheet and updated message added to log file.
+
+changeset:   537:c72f0c9fb059
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Mon Apr 30 22:57:05 2012 +1000
+summary:     Query component cross checks spreadsheet before listing potential incorrect sentences for a session and component.
+
+changeset:   536:2f2b3c140442
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Mon Apr 30 15:48:14 2012 +1000
+summary:     Fixed some tabbing issues.
+
+changeset:   535:054d1f6df335
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Mon Apr 30 15:44:15 2012 +1000
+summary:     Added functionality to query.py to lookup incorrect sentences. WIP.
+
+changeset:   534:091b234f3946
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Sun Apr 29 09:16:48 2012 +1000
+summary:     Fixed compilation issue in explorer bootstrap program.
+
+changeset:   533:d30e0de87cc4
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Sun Apr 29 09:12:25 2012 +1000
+summary:     The properties window of the explorer app now presents the properties in a nicely formatted window.
+
+changeset:   532:f81ad0437c71
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Thu Apr 26 19:51:11 2012 +1000
+summary:     Added logging to rename methods in component and item.
+
+changeset:   531:cacd75b37612
+branch:      CompressUploadRefactor
+parent:      530:ddd5c55efa7b
+parent:      529:43b254ea992c
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Apr 26 12:34:51 2012 +1000
+summary:     Merged changes.
+
+changeset:   530:ddd5c55efa7b
+branch:      CompressUploadRefactor
+parent:      525:6d3169eae870
+user:        shirren
+date:        Thu Apr 26 12:22:48 2012 +1000
+summary:     Initial checkin of black box explorer. The current version is a barebones version with more features to come.
+
+changeset:   529:43b254ea992c
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 26 09:43:41 2012 +1000
+summary:     Added tag release-1-6 for changeset b85ec26e089a
+
+changeset:   528:b85ec26e089a
+branch:      CompressUploadRefactor
+tag:         release-1-6
+parent:      527:cbb4f87072de
+parent:      526:5a42ae26f28a
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Apr 24 08:49:26 2012 +1000
+summary:     merge
+
+changeset:   527:cbb4f87072de
+branch:      CompressUploadRefactor
+parent:      523:a038ea548422
+user:        stevecassidy
+date:        Mon Apr 23 13:22:47 2012 +1000
+summary:     Add function to find the prompt for an item given a component and item id.
+
+changeset:   526:5a42ae26f28a
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Sat Apr 21 19:07:15 2012 +1000
+summary:     Minor functional addition to query script
+
+changeset:   525:6d3169eae870
+branch:      CompressUploadRefactor
+parent:      524:dffd4fb4c13d
+parent:      523:a038ea548422
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Fri Apr 20 17:37:51 2012 +1000
+summary:     Merged changes locally
+
+changeset:   524:dffd4fb4c13d
+branch:      CompressUploadRefactor
+parent:      514:3ca2e080d6ba
+user:        shirren
+date:        Fri Apr 20 17:32:13 2012 +1000
+summary:     Added some additional query methods for diagnosing problematic recordings.
+
+changeset:   523:a038ea548422
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Fri Apr 20 16:03:40 2012 +1000
+summary:     Added tag release-1-6 for changeset 268111d95333
+
+changeset:   522:268111d95333
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Fri Apr 20 14:18:45 2012 +1000
+summary:     Always re-copy audio files in case copied version was incomplete or corrupted.
+
+changeset:   521:3520519822a0
+branch:      CompressUploadRefactor
+parent:      520:9f4e9e0aff48
+parent:      514:3ca2e080d6ba
+user:        stevecassidy
+date:        Fri Apr 20 11:11:41 2012 +1000
+summary:     Merge with 3ca2e080d6ba910eafb392429fd70ad34a2783d8
+
+changeset:   520:9f4e9e0aff48
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Fri Apr 20 11:08:35 2012 +1000
+summary:     Increment version to 1.6
+
+changeset:   519:d2f46ef175e1
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Fri Apr 20 11:04:34 2012 +1000
+summary:     Make the copier GUI be event driven.
+
+changeset:   518:02e39713772e
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 19 12:57:14 2012 +1000
+summary:     increment version to 1.6b3
+
+changeset:   517:aef15118d60d
+branch:      CompressUploadRefactor
+parent:      516:624b473a0b2b
+parent:      512:8ffac5a021aa
+user:        stevecassidy
+date:        Thu Apr 19 12:50:31 2012 +1000
+summary:     Merge with 8ffac5a021aa306f6d3a548aa4f01acf7a882b4a
+
+changeset:   516:624b473a0b2b
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 19 12:43:14 2012 +1000
+summary:     Ignore zero length video files - don't add them to item metadata so they don't cause a validation error.
+
+changeset:   515:168a4937a5ab
+branch:      CompressUploadRefactor
+parent:      513:00385e6d2f69
+user:        stevecassidy
+date:        Thu Apr 19 11:53:46 2012 +1000
+summary:     Add check for calibration directory and disable compress if not present.
+
+changeset:   514:3ca2e080d6ba
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Thu Apr 19 17:23:43 2012 +1000
+summary:     Cleaner support for renaming components and speakers. Includes a fix to update the manifest.
+
+changeset:   513:00385e6d2f69
+branch:      CompressUploadRefactor
+parent:      509:a0554fc7d975
+user:        steve
+date:        Thu Apr 19 11:10:29 2012 +1000
+summary:     Regenerate verbose names after renaming item
+
+changeset:   512:8ffac5a021aa
+parent:      511:21538a06a124
+parent:      483:36d13c22b793
+user:        steve
+date:        Wed Mar 14 12:36:01 2012 +1100
+summary:     Merge with 36d13c22b7935624c5f20c3e582fe30660beb4d4
+
+changeset:   511:21538a06a124
+user:        steve
+date:        Tue Mar 06 12:31:40 2012 +1100
+summary:     Add trailing slash to validation URL to avoid redirect
+
+changeset:   510:eded4ffcecf8
+parent:      482:5c1fac4b6ba2
+user:        steve
+date:        Tue Mar 06 12:31:14 2012 +1100
+summary:     Increase block size for checksum calculation to speed it up.
+
+changeset:   509:a0554fc7d975
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Thu Apr 19 10:01:26 2012 +1000
+summary:     Fixed a bug where the upload status was not tracked during the rename.
+
+changeset:   508:2c9a388a2f33
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Wed Apr 18 15:41:10 2012 +1000
+summary:     Added script to hook into rename facilities of components and items. Also removed redundant read_meta data call in RecordedComponent.
+
+changeset:   507:106dfc17c7a8
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Wed Apr 18 14:20:23 2012 +1000
+summary:     Fixed bug where if animal or colour changed the grand parent folder was not created properly.
+
+changeset:   506:d5d727d0f9bf
+branch:      CompressUploadRefactor
+user:        shirren
+date:        Tue Apr 17 16:59:39 2012 +1000
+summary:     Added functionality to move items across component folders if and when required.
+
+changeset:   505:b10086b8ee02
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Tue Apr 17 16:12:33 2012 +1000
+summary:     WIP for renaming an item. Current implementation is local to RecordedItem.
+
+changeset:   504:13ab1c558c62
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Mon Apr 16 17:28:43 2012 +1000
+summary:     Added tag release-1-6b2 for changeset e1d25bfe7166
+
+changeset:   503:e1d25bfe7166
+branch:      CompressUploadRefactor
+tag:         release-1-6b2
+user:        stevecassidy
+date:        Mon Apr 16 17:28:03 2012 +1000
+summary:     Increment version to 1.6b2
+
+changeset:   502:8796da584895
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Mon Apr 16 17:27:45 2012 +1000
+summary:     Deal with unknown directories a bit better in IdentifyDir
+
+changeset:   501:dee3c8a2f4fe
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Mon Apr 16 15:55:46 2012 +1000
+summary:     Improve error tracking and reporting for case of empty video files.
+
+changeset:   500:23fe6dd13c18
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Mon Apr 16 13:20:34 2012 +1000
+summary:     Clean up FlowPanel handling, merge ProcessScript and FlowPanel, clean up the way that CoperFrame runs the panels in sequence
+
+changeset:   499:9c5265de1c6a
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 05 18:32:17 2012 +1000
+summary:     Added tag release-1-6b1 for changeset f19b8ea20f26
+
+changeset:   498:f19b8ea20f26
+branch:      CompressUploadRefactor
+tag:         release-1-6b1
+user:        stevecassidy
+date:        Thu Apr 05 18:31:51 2012 +1000
+summary:     Remove import of test modules
+
+changeset:   497:557f6e7aa7cb
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 05 17:22:58 2012 +1000
+summary:     Remove mention of tests in datahandling.__init__.py since we exclude the test code from production release.
+
+changeset:   496:5c79e61f83e5
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 05 17:20:02 2012 +1000
+summary:     Increment version to 1.6b1
+
+changeset:   495:bbca114fbc3b
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 05 17:19:41 2012 +1000
+summary:     Add an empty video file to the test data.
+
+changeset:   494:ab3b988ce284
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 05 17:15:57 2012 +1000
+summary:     Make sure that empty video files don't crash the compresser.
+
+changeset:   493:3dde96863fad
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Thu Apr 05 16:58:13 2012 +1000
+summary:     Refactoring of audio video upload code to prioritise audio slightly differently.  Fix up metadata generation to ensure that it is always complete even though only audio files have been copied or uploaded. Ensure that validation understands the new data flow.
+
+changeset:   492:d20f1812516e
+branch:      CompressUploadRefactor
+user:        stevecassidy
+date:        Wed Apr 04 17:44:01 2012 +1000
+summary:     remove modified paths/urls and general clean up for testing new compress/upload code
+
+changeset:   491:28ad551a5d1f
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Tue Apr 03 18:06:58 2012 +1000
+summary:     First stage of manifest validation.
+
+changeset:   490:54991cf54bb3
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Tue Apr 03 13:01:29 2012 +1000
+summary:     First stage of manifest validation.
+
+changeset:   489:1f438070c869
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Mar 29 16:06:10 2012 +1100
+summary:     Added some better comments.
+
+changeset:   488:f321b1e83445
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Mar 29 16:00:55 2012 +1100
+summary:     Removed the addition of the raw file to the meta data.
+
+changeset:   487:de4cc7f6f5c8
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Mar 29 13:44:20 2012 +1100
+summary:     Updated a test
+
+changeset:   486:7c224f69ddbf
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Mar 29 12:58:59 2012 +1100
+summary:     Wired multiprocessing code to use new compression and upload method.
+
+changeset:   485:24e1796eb091
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Thu Mar 29 12:55:34 2012 +1100
+summary:     Wired multiprocessing code to use new compression and upload method.
+
+changeset:   484:cea7d246c7b1
+branch:      CompressUploadRefactor
+user:        Shirren Premaratne <shirren.premaratne@mq.edu.au>
+date:        Tue Mar 27 16:54:31 2012 +1100
+summary:     Initial testing of upload and compress complete
+
+changeset:   483:36d13c22b793
+parent:      478:7a09c09dddf7
+parent:      482:5c1fac4b6ba2
+user:        steve
+date:        Wed Mar 14 12:34:15 2012 +1100
+summary:     Merge with 5c1fac4b6ba266bb209a697eac3d7c91b03ae184
+
+changeset:   482:5c1fac4b6ba2
+user:        stevecassidy
+date:        Wed Feb 22 10:25:58 2012 +1100
+summary:     Added tag release-1-5-2 for changeset 2b2b78fadb8b
+
+changeset:   481:2b2b78fadb8b
+tag:         release-1-5-2
+user:        stevecassidy
+date:        Wed Feb 22 10:25:24 2012 +1100
+summary:     increment verision number
+
+changeset:   480:aa67c813a201
+user:        stevecassidy
+date:        Wed Feb 22 10:24:31 2012 +1100
+summary:     Added tag release-1-5-2 for changeset d1b2e628ff85
+
+changeset:   479:d1b2e628ff85
+parent:      477:e29ec6229475
+user:        steve
+date:        Tue Feb 21 17:33:34 2012 +1100
+summary:     don't guess metadata when you're trying to write metadata
+
+changeset:   478:7a09c09dddf7
+user:        steve
+date:        Tue Mar 13 18:45:38 2012 +1100
+summary:     Minor change to output format of list_sessions to match item file names.
+
+changeset:   477:e29ec6229475
+user:        stevecassidy
+date:        Wed Feb 15 15:37:16 2012 +1100
+summary:     Added tag release-1-5-1 for changeset 082acb835b43
+
+changeset:   476:082acb835b43
+tag:         release-1-5-1
+user:        steve
+date:        Wed Feb 15 15:25:34 2012 +1100
+summary:     fix missed edit
+
+changeset:   475:403b1ef3aee7
+parent:      473:5ec00098faa6
+user:        Steve Cassidy
+date:        Wed Feb 15 13:14:51 2012 +1100
+summary:     Added tag release-1-5 for changeset 5ec00098faa6
+
+changeset:   474:684a5810afe8
+user:        stevecassidy
+date:        Wed Feb 15 11:12:01 2012 +1100
+summary:     add rename session script
+
+changeset:   473:5ec00098faa6
+tag:         release-1-5
+user:        stevecassidy
+date:        Wed Feb 15 11:05:50 2012 +1100
+summary:     increment version to 1.5
+
+changeset:   472:c573c0853a93
+user:        stevecassidy
+date:        Wed Feb 15 11:05:14 2012 +1100
+summary:     factor out validation report into read/write procedures
+
+changeset:   471:5166cecaf2a8
+user:        stevecassidy
+date:        Tue Feb 14 14:18:42 2012 +1100
+summary:     Use generators rather to lazily generate RecordedItems instead of doing it all up front, dramatically speeds up the startup time for compress/upload etc.  globals.rawItems and globals.comprItems are now generators rather than lists.
+
+changeset:   470:8e29c23b5ff8
+user:        stevecassidy
+date:        Tue Feb 14 12:18:32 2012 +1100
+summary:     Don't scan for items until the user selects an action.  Fix error reporting when server reports errors or warnings.
+
+changeset:   469:58e47aa33a2b
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Feb 10 20:54:01 2012 +1100
+summary:     When DEBUG=yes, real full exceptoin stacktrace should be printed even if the exception happens inside of a multiprocessed function
+
+changeset:   468:76174a09199a
+user:        stevecassidy
+date:        Thu Feb 09 12:38:54 2012 +1100
+summary:     Increment version to 1.5b3
+
+changeset:   467:9f57bfbe3d88
+user:        stevecassidy
+date:        Thu Feb 09 12:32:39 2012 +1100
+summary:     Add version number to title bar in copier and recorder guis
+
+changeset:   466:266589af6d57
+user:        steve
+date:        Thu Feb 09 12:10:00 2012 +1100
+summary:     Fix a couple of problems with marking files as uploaded and multipart encoding
+
+changeset:   465:fe73817f169c
+user:        steve
+date:        Wed Feb 08 12:02:56 2012 +1100
+summary:     Remove debugging print
+
+changeset:   464:b7088deeaa95
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Feb 07 23:49:14 2012 +1100
+summary:     Enforcing int(cid) for component name (was returning 'Unknown component' again)
+
+changeset:   463:aaa222fcbe66
+user:        steve
+date:        Tue Feb 07 21:36:13 2012 +1100
+summary:     don't use the pipelined video compression by default, it doesn't work inside multiprocessing
+
+changeset:   462:69554dc026ba
+user:        steve
+date:        Tue Feb 07 11:38:10 2012 +1100
+summary:     increment version number to 1.5b2
+
+changeset:   461:252440745c5d
+user:        steve
+date:        Tue Feb 07 11:19:20 2012 +1100
+summary:     Fix up validation procedure, add some output during process
+
+changeset:   460:6304e33fa169
+user:        steve
+date:        Tue Feb 07 11:04:12 2012 +1100
+summary:     ran reindent.py over the codebase to fix indentation, should now be 4 space tabs everywhere
+
+changeset:   459:32d90e016059
+user:        steve
+date:        Tue Feb 07 07:38:12 2012 +1100
+summary:     remove references to lxml.etree
+
+changeset:   458:1c386c738523
+user:        stevecassidy
+date:        Mon Feb 06 16:53:28 2012 +1100
+summary:     increment version to 1.5b1
+
+changeset:   457:0838be4ac429
+user:        stevecassidy
+date:        Mon Feb 06 16:43:49 2012 +1100
+summary:     Remove stray print statement.
+
+changeset:   456:739818e68a20
+user:        stevecassidy
+date:        Mon Feb 06 16:38:53 2012 +1100
+summary:     Wrong map file for session 3 words.
+
+changeset:   455:085283ae8f44
+user:        stevecassidy
+date:        Mon Feb 06 16:38:34 2012 +1100
+summary:     Fix issues with session and component resets between sessions, correct display and checking of maptask metadata
+
+changeset:   454:a629ef9b4188
+user:        stevecassidy
+date:        Mon Feb 06 14:27:03 2012 +1100
+summary:     Remove stray print.
+
+changeset:   453:bea8452ab3e6
+user:        stevecassidy
+date:        Mon Feb 06 14:26:10 2012 +1100
+summary:     Fix up camera info in 'correct' sample metadata
+
+changeset:   452:fb4bc8170251
+user:        stevecassidy
+date:        Mon Feb 06 14:25:35 2012 +1100
+summary:     Look in the right place for the config.ini file, earlier version used dir. of executable script, now use the dir of config.py module.
+
+changeset:   451:ad6b971dbaa3
+user:        stevecassidy
+date:        Mon Feb 06 14:24:49 2012 +1100
+summary:     Fix up metadata generation for missing or corrupt xml files.  Now we generate whenever we find a missing or corrupt file, find camera info from hardware by default or if not, by looking in another item.   Cleaned up tests.
+
+changeset:   450:53247fb8cc93
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Feb 04 09:49:08 2012 +1100
+summary:     Issue #12 - a few little bits and pieces
+
+changeset:   449:4d13218b5550
+parent:      448:9f272776ca99
+parent:      433:419c2acc6fa7
+user:        steve
+date:        Thu Feb 02 17:13:04 2012 +1100
+summary:     Merge with 419c2acc6fa7e4e3812cd1300fedd619cab67741
+
+changeset:   448:9f272776ca99
+user:        steve
+date:        Thu Feb 02 17:05:06 2012 +1100
+summary:     Allow recording session to continue if ID can't be validated, closes #11
+
+changeset:   447:95a25d4ec761
+user:        stevecassidy
+date:        Thu Feb 02 13:53:06 2012 +1100
+summary:     update version to 1.5a2
+
+changeset:   446:9725e9a18680
+user:        stevecassidy
+date:        Thu Feb 02 13:50:22 2012 +1100
+summary:     Clarify error message when the server gives a not found response
+
+changeset:   445:6f9d48c3c3c8
+user:        stevecassidy
+date:        Thu Feb 02 13:43:56 2012 +1100
+summary:     deal with empty or corrupt xml files
+
+changeset:   444:cee5e6f3c8c5
+user:        stevecassidy
+date:        Thu Feb 02 13:22:32 2012 +1100
+summary:     default TEMP_DIR to system temp directory in cleaning up files
+
+changeset:   443:9693c64fa78d
+user:        stevecassidy
+date:        Thu Feb 02 13:22:06 2012 +1100
+summary:     update version to 1.5a1
+
+changeset:   442:25a03b12b733
+user:        stevecassidy
+date:        Wed Feb 01 13:58:00 2012 +1100
+summary:     Remove old prompts directory, now replaced fully by protocol-prompts
+
+changeset:   441:6ec882eefedf
+user:        stevecassidy
+date:        Wed Feb 01 13:55:23 2012 +1100
+summary:     Add a little utility to list all sessions, components and items.
+
+changeset:   440:0bd0954a3b43
+user:        stevecassidy
+date:        Wed Feb 01 13:34:37 2012 +1100
+summary:     Use more characters in tree view to make prompts unique
+
+changeset:   439:b432adbc82d1
+user:        stevecassidy
+date:        Wed Feb 01 13:30:25 2012 +1100
+summary:     wrong map file name for yes/no closing component
+
+changeset:   438:f4b06b64c61f
+user:        stevecassidy
+date:        Wed Feb 01 13:26:46 2012 +1100
+summary:     Dummy recording backend was inconsistent for yes/no responses.
+
+changeset:   437:6f2ee3617e2a
+user:        stevecassidy
+date:        Wed Feb 01 13:20:18 2012 +1100
+summary:     Fix bug in error reporting that was causing crash, be more careful with handling failure messages
+
+changeset:   436:3a3eca38cce7
+user:        stevecassidy
+date:        Wed Feb 01 13:19:45 2012 +1100
+summary:     Alternative algorithm for compression that pipelines AVI generation and compression by watching the file system, turn on via config setting
+
+changeset:   435:2be8e1ecfcc7
+user:        stevecassidy
+date:        Mon Jan 30 17:22:13 2012 +1100
+summary:     Code to generate metadata file if it's missing.  Only called during validation as it uses other items to get camera data, calling during component creation causes inf. recursion.  Drive component item list from file basenames not just .xml files so that we get items with missing .xml while processing.  Still need to work out how to best integrate into compress/upload, currently it will happen only afterwards, during validation so a re-run is needed.
+
+changeset:   434:ea33950500cc
+parent:      431:a06d869d1c16
+user:        stevecassidy
+date:        Fri Jan 27 11:40:25 2012 +1100
+summary:     Remove old temp directories before we start compressing.
+
+changeset:   433:419c2acc6fa7
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Feb 02 00:06:01 2012 +1100
+summary:     Added functionality for caching validation results in per session validation.txt
+
+changeset:   432:2b87c8675758
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Jan 27 22:12:17 2012 +1100
+summary:     Issue #38
+
+changeset:   431:a06d869d1c16
+parent:      428:49124ffab500
+parent:      430:9465362baf06
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Jan 22 23:48:56 2012 +1100
+summary:     Merge
+
+changeset:   430:9465362baf06
+branch:      Tomas_Issue_9
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Jan 22 23:46:18 2012 +1100
+summary:     Added functionality for retries via the copier GUI (MAX_RETRIES in config.ini)
+
+changeset:   429:de162db9da2f
+branch:      Tomas_Issue_9
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Jan 22 21:10:32 2012 +1100
+summary:     Issue #9
+
+changeset:   428:49124ffab500
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Jan 22 21:03:30 2012 +1100
+summary:     Issue #10
+
+changeset:   427:ee4592e52c5c
+parent:      416:8a6802c686b1
+parent:      426:5690d47a05f8
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Jan 22 14:00:16 2012 +1100
+summary:     Merge
+
+changeset:   426:5690d47a05f8
+branch:      refactor_session_config
+user:        stevecassidy
+date:        Fri Jan 20 16:54:58 2012 +1100
+summary:     Fix problem with prompts and tree view in recorder tool, remove funny chars from prompt texts.
+
+changeset:   425:7245e3d81f9e
+branch:      refactor_session_config
+user:        steve
+date:        Thu Jan 19 16:12:39 2012 +1100
+summary:     improve warning/error output, get component names right more often, add test data with some errors/warnings
+
+changeset:   424:6c16130f953a
+branch:      refactor_session_config
+user:        steve
+date:        Thu Jan 19 15:32:06 2012 +1100
+summary:     remove debugging output
+
+changeset:   423:f2d3370a0f6c
+branch:      refactor_session_config
+user:        steve
+date:        Thu Jan 19 15:31:48 2012 +1100
+summary:     nicer messages in warnings
+
+changeset:   422:fee0f8ea8923
+branch:      refactor_session_config
+user:        steve
+date:        Thu Jan 19 15:01:58 2012 +1100
+summary:     Turn some errors into warnings, report separately
+
+changeset:   421:9c6d2dfb9080
+branch:      refactor_session_config
+parent:      420:17f131c95dd1
+parent:      414:f084b6874657
+user:        steve
+date:        Wed Jan 18 17:57:29 2012 +1100
+summary:     Merge with f084b68746573ae67d8a625f26eecb859c2bc23c
+
+changeset:   420:17f131c95dd1
+branch:      refactor_session_config
+user:        steve
+date:        Mon Jan 16 10:47:19 2012 +1100
+summary:     Add config option to skip early screens in recorder (RECORDER_SKIP_INITAL_SCREENS = Yes) for less painful debugging.
+
+changeset:   419:317f4e3fc811
+branch:      refactor_session_config
+user:        steve
+date:        Mon Jan 16 10:41:37 2012 +1100
+summary:     Add generated map files to vc.  Recorder now uses map files to find items and displays prompt text in protocol tree instead of 'slide3.jpg'
+
+changeset:   418:ad5d0729ce93
+branch:      refactor_session_config
+user:        steve
+date:        Wed Jan 04 18:14:50 2012 +1100
+summary:     More work on new data structures, put animals in a separate file imported into Domain, make sure everything uses the new versions in the recorder. Almost there, still some checking to do.
+
+changeset:   417:74f9aebaae9f
+branch:      refactor_session_config
+parent:      397:6926a83cbb3a
+user:        steve
+date:        Tue Jan 03 17:07:00 2012 +1100
+summary:     Replacing interface to sessions, components and items with full object based interface, incomplete, still need to check out rest of application
+
+changeset:   416:8a6802c686b1
+user:        stevecassidy
+date:        Thu Dec 15 17:25:12 2011 +1100
+summary:     Added tag release-1-4 for changeset 2145e48322db
+
+changeset:   415:2145e48322db
+tag:         release-1-4
+user:        stevecassidy
+date:        Thu Dec 15 17:24:55 2011 +1100
+summary:     Remove option to delete files, improve validation report. Change version to 1.4
+
+changeset:   414:f084b6874657
+user:        steve
+date:        Mon Dec 12 09:14:17 2011 +1100
+summary:     Handle BadStatusLine exception in uploaded (need to look at server end to see why it's happening).  Check session basenames rather than session objects in raw validation.
+
+changeset:   413:320e07ddd05a
+user:        stevecassidy
+date:        Thu Dec 08 15:24:56 2011 +1100
+summary:     Added tag release-1-4b for changeset 14158c5f0f56
+
+changeset:   412:14158c5f0f56
+tag:         release-1-4b
+user:        stevecassidy
+date:        Thu Dec 08 15:03:37 2011 +1100
+summary:     cleaning up validation etc. Add validation only button, make sure that validation only runs once (cache results).
+
+changeset:   411:37aec168a052
+user:        stevecassidy
+date:        Thu Dec 08 11:34:40 2011 +1100
+summary:     Use average item size to guess the overall data size. Limit the number of processes in all multiprocessing tasks. Other small changes to validation and processing.
+
+changeset:   410:a8ae88af0ffa
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Dec 06 23:21:21 2011 +1100
+summary:     Integrated data validation with regular compress, upload, compress&upload actions, fixed a few major issues (int() takes ... not NoneType, error when xml file does not exist during upload
+
+changeset:   409:95e406491f08
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Dec 04 12:43:53 2011 +1100
+summary:     Validation error when empty <files /> element in xml metadata
+
+changeset:   408:73cef896e4c0
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Dec 01 22:52:49 2011 +1100
+summary:     Fixing little thing in RecordedItem.read_metadata
+
+changeset:   407:44e44c7d5140
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Dec 01 22:26:53 2011 +1100
+summary:     Fixed bug - KeyError: 'files'
+
+changeset:   406:7f5ee7bfb482
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Wed Nov 30 23:12:10 2011 +1100
+summary:     Fixed (hopefully) weird error u'' during clean-backup
+
+changeset:   405:e5970a4feb78
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 28 22:55:06 2011 +1100
+summary:     Catching exceptions when validating sessions
+
+changeset:   404:bd145414e1e3
+parent:      403:4c348cdc370f
+parent:      401:1eea8ee9b3ae
+user:        stevecassidy
+date:        Mon Nov 28 11:25:25 2011 +1100
+summary:     Merge with 1eea8ee9b3ae19512b0b7245bdcf4411f5392958
+
+changeset:   403:4c348cdc370f
+user:        stevecassidy
+date:        Mon Nov 28 11:19:55 2011 +1100
+summary:     better behaviour if we can't find the calibration file for a camera
+
+changeset:   402:ca76846c1081
+parent:      400:c7d10aff9b26
+user:        stevecassidy
+date:        Mon Nov 28 11:19:19 2011 +1100
+summary:     Use fewer processes for compress/upload after experiments  - 3 gives best performance. Don't sort sessions, it takes too long. Configure number of processes directly rather than using number of CPUs as a guide.
+
+changeset:   401:1eea8ee9b3ae
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 25 14:20:03 2011 +1100
+summary:     Fixing recursive wx.Yield call + some other improvements of the timing estimates
+
+changeset:   400:c7d10aff9b26
+parent:      398:9036eb8e1ec1
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 25 08:41:26 2011 +1100
+summary:     Randomize a bit sorting of items according to their size
+
+changeset:   399:39d472365813
+branch:      Tomas__copier_status_integration_enhancement
+parent:      393:83efda1fc318
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 24 20:42:32 2011 +1100
+summary:     Closing branch
+
+changeset:   398:9036eb8e1ec1
+parent:      396:5097dbcacb8e
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 24 20:41:00 2011 +1100
+summary:     Time estimation for 'compress & upload'
+
+changeset:   397:6926a83cbb3a
+branch:      refactor_session_config
+user:        steve
+date:        Thu Nov 24 18:48:10 2011 +1100
+summary:     Refactoring session and component data away from complicated lists
+
+changeset:   396:5097dbcacb8e
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 24 12:09:24 2011 +1100
+summary:     Fixed RecordedItem.getsize() to use RecordedItem.byte_size()
+
+changeset:   395:e857600784ad
+parent:      394:f2466f1e5757
+parent:      393:83efda1fc318
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 24 12:04:04 2011 +1100
+summary:     Merge
+
+changeset:   394:f2466f1e5757
+parent:      391:bc592afbb737
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 24 11:56:39 2011 +1100
+summary:     Adding forgotten ProcessScript
+
+changeset:   393:83efda1fc318
+branch:      Tomas__copier_status_integration_enhancement
+parent:      392:d62d2d98336f
+parent:      390:2dc94fcb2bd1
+user:        stevecassidy
+date:        Thu Nov 24 11:49:18 2011 +1100
+summary:     Merge with 2dc94fcb2bd17f6d1c20b8ddc172699f67b1a13d
+
+changeset:   392:d62d2d98336f
+branch:      Tomas__copier_status_integration_enhancement
+parent:      388:318c917113cb
+user:        stevecassidy
+date:        Thu Nov 24 11:38:48 2011 +1100
+summary:     Record processing time and file size in logs for compress and upload, show verbose failure messages if DEBUG is set in config.
+
+changeset:   391:bc592afbb737
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 24 11:50:30 2011 +1100
+summary:     Time estimate for compression
+
+changeset:   390:2dc94fcb2bd1
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 24 11:17:09 2011 +1100
+summary:     Time estimate for upload
+
+changeset:   389:8c905b46606d
+parent:      387:e5017d5c8740
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Wed Nov 23 09:48:45 2011 +1100
+summary:     Clear sign of a finished process + interrupt button, sorting files according to their size
+
+changeset:   388:318c917113cb
+branch:      Tomas__copier_status_integration_enhancement
+parent:      386:c17d2576b156
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 16:23:13 2011 +1100
+summary:     Closing branch
+
+changeset:   387:e5017d5c8740
+parent:      373:dae9abe4f13f
+parent:      386:c17d2576b156
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 16:21:18 2011 +1100
+summary:     Merge
+
+changeset:   386:c17d2576b156
+branch:      Tomas__copier_status_integration_enhancement
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 13:21:42 2011 +1100
+summary:     A note in process_site
+
+changeset:   385:87f0b843c582
+branch:      Tomas__copier_status_integration_enhancement
+parent:      383:e02b5f2400e2
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 13:15:24 2011 +1100
+summary:     Trimming checksums before validation
+
+changeset:   384:ad9261eab193
+branch:      Tomas__code_cleaning__tests
+parent:      381:8694eb237a34
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 13:08:52 2011 +1100
+summary:     Closing this branch
+
+changeset:   383:e02b5f2400e2
+branch:      Tomas__copier_status_integration_enhancement
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 13:07:29 2011 +1100
+summary:     Fixing little problems after merge
+
+changeset:   382:076e1f41a2ee
+branch:      Tomas__copier_status_integration_enhancement
+parent:      376:32bcca7062b4
+parent:      381:8694eb237a34
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 12:29:08 2011 +1100
+summary:     Merge
+
+changeset:   381:8694eb237a34
+branch:      Tomas__code_cleaning__tests
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 12:26:19 2011 +1100
+summary:     Tests for RecordedItem + removed cleaner
+
+changeset:   380:6e616c29eb2c
+branch:      Tomas__code_cleaning__tests
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 11:59:13 2011 +1100
+summary:     Finished tests for RecordedSession
+
+changeset:   379:152d13ba389c
+branch:      Tomas__code_cleaning__tests
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 10:14:46 2011 +1100
+summary:     Fixing tests for RecordedSession
+
+changeset:   378:2f7b75c4afc6
+branch:      Tomas__code_cleaning__tests
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 09:50:38 2011 +1100
+summary:     Fixed TODOs in process_site.py
+
+changeset:   377:ad18a38fc790
+branch:      Tomas__code_cleaning__tests
+parent:      369:f493948b8e20
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 22 08:51:52 2011 +1100
+summary:     A lot of small fixes, working on the TODOs
+
+changeset:   376:32bcca7062b4
+branch:      Tomas__copier_status_integration_enhancement
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 21 10:09:14 2011 +1100
+summary:     Operations "Status" and "Status & Clean" parallelized
+
+changeset:   375:1df6c3f1d066
+branch:      Tomas__copier_status_integration_enhancement
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 21 09:27:08 2011 +1100
+summary:     Fixed "Status" and "Status & Clean" operations (non-parallelized now)
+
+changeset:   374:2d552c4ce596
+branch:      Tomas__copier_status_integration_enhancement
+parent:      371:c65d980fe923
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 18 22:09:55 2011 +1100
+summary:     A lot of little bug fixes and improvements
+
+changeset:   373:dae9abe4f13f
+user:        stevecassidy
+date:        Fri Nov 18 14:23:56 2011 +1100
+summary:     Added tag release-1-3-1 for changeset 13eb2438c79d
+
+changeset:   372:13eb2438c79d
+tag:         release-1-3-1
+parent:      365:53e69e3859af
+user:        stevecassidy
+date:        Fri Nov 18 14:23:33 2011 +1100
+summary:     Make sure local_config.ini doesn't get into distribution, remove it on target if present (was in release_3_0
+
+changeset:   371:c65d980fe923
+branch:      Tomas__copier_status_integration_enhancement
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 18 10:31:07 2011 +1100
+summary:     Reengineered copier GUI (integrated with status, clean), (status, clean) still need integration with progress bar and status bar
+
+changeset:   370:c8b9818a2347
+branch:      Tomas__copier_status_integration_enhancement
+parent:      367:2d75b3dd8711
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 18 08:48:17 2011 +1100
+summary:     New branch for integration of copier with status, enhancing status
+
+changeset:   369:f493948b8e20
+branch:      Tomas__code_cleaning__tests
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 15 21:01:17 2011 +1100
+summary:     Added test skeleton for copier
+
+changeset:   368:4f0195c8f427
+branch:      Tomas__code_cleaning__tests
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 15 20:43:45 2011 +1100
+summary:     A new branch for some code cleaning and new tests
+
+changeset:   367:2d75b3dd8711
+parent:      366:e12c427551ac
+parent:      365:53e69e3859af
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 14 21:03:17 2011 +1100
+summary:     Merge
+
+changeset:   366:e12c427551ac
+parent:      362:6916ec7c3d70
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 14 21:02:26 2011 +1100
+summary:     Really little (cosmetical) fixes
+
+changeset:   365:53e69e3859af
+user:        stevecassidy
+date:        Mon Nov 14 13:13:54 2011 +1100
+summary:     Added tag release-1-3 for changeset 3fdedac9ddca
+
+changeset:   364:3fdedac9ddca
+tag:         release-1-3
+user:        stevecassidy
+date:        Mon Nov 14 13:13:15 2011 +1100
+summary:     Use the right protocol for the host contact check and use urllib2 to ensure we get around proxies.
+
+changeset:   363:4f556718f776
+parent:      361:cdd89b9c78e4
+user:        stevecassidy
+date:        Mon Nov 14 10:21:38 2011 +1100
+summary:     Added tag release-1-3 for changeset cdd89b9c78e4
+
+changeset:   362:6916ec7c3d70
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 14 12:05:58 2011 +1100
+summary:     Added GUI for `status' and `clean' operations (prototype)
+
+changeset:   361:cdd89b9c78e4
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 14 09:02:01 2011 +1100
+summary:     Fixing a few bugs related to generating and copying manifests, status and clean operations improved
+
+changeset:   360:ca350780dcf4
+parent:      358:7f3f52c8df28
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 22:35:14 2011 +1100
+summary:     python process_site.py status . . . (possibly a bit unstable but everthing seems to work fine)
+
+changeset:   359:23ea333f2d4e
+branch:      Tomas_status_clean
+parent:      351:98ef229f7d6d
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 22:17:13 2011 +1100
+summary:     Closing this branch since it was merged to `default'
+
+changeset:   358:7f3f52c8df28
+parent:      357:dacf935a466d
+parent:      351:98ef229f7d6d
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 22:12:29 2011 +1100
+summary:     Merge
+
+changeset:   357:dacf935a466d
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 22:07:08 2011 +1100
+summary:     Mistakenly status being developed in `default' branch (here)
+
+changeset:   356:30b8fd07ef81
+user:        stevecassidy
+date:        Fri Nov 11 16:16:47 2011 +1100
+summary:     Added tag release-1-3 for changeset d5e92d1a4a8e
+
+changeset:   355:d5e92d1a4a8e
+user:        stevecassidy
+date:        Fri Nov 11 16:15:29 2011 +1100
+summary:     new compiled version of rawtoavi library
+
+changeset:   354:5156a47da983
+user:        stevecassidy
+date:        Fri Nov 11 16:15:07 2011 +1100
+summary:     use version number in output file name
+
+changeset:   353:8b395d3dd68c
+user:        stevecassidy
+date:        Fri Nov 11 15:50:19 2011 +1100
+summary:     Allow running the GUI without the right libraries if DEBUG=Yes in the config
+
+changeset:   352:d8a2847e9659
+parent:      349:d19f745aa392
+user:        stevecassidy
+date:        Fri Nov 11 15:49:31 2011 +1100
+summary:     write the software version number in the INI file and include it in item metadata
+
+changeset:   351:98ef229f7d6d
+branch:      Tomas_status_clean
+parent:      348:820fc3ad2071
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 12:50:23 2011 +1100
+summary:     Status beta (without manifests)
+
+changeset:   350:a8642fbe4f99
+branch:      Tomas_upload_files__chunks_entireItem
+parent:      347:f59e2db1e5f8
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 11:59:25 2011 +1100
+summary:     Closing upload chunks and entire items branch
+
+changeset:   349:d19f745aa392
+parent:      346:82de5bdac495
+parent:      347:f59e2db1e5f8
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 11:57:42 2011 +1100
+summary:     Merge
+
+changeset:   348:820fc3ad2071
+branch:      Tomas_status_clean
+parent:      343:ffc1d562b978
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 11:51:10 2011 +1100
+summary:     Status for sessions
+
+changeset:   347:f59e2db1e5f8
+branch:      Tomas_upload_files__chunks_entireItem
+parent:      344:bbd6701b8f9c
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Nov 11 00:49:36 2011 +1100
+summary:     Fixed data upload of large files (default upload in 10 MB chunks now), fixed uploaded multiple files at once (the entire item is now uploaded in one request, the entire calibration dir is uploaded in one request)
+
+changeset:   346:82de5bdac495
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 10 12:51:27 2011 +1100
+summary:     Fix for new created time during the silence conversion and copy
+
+changeset:   345:f167cd9143f2
+parent:      342:355049964964
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 10 11:44:58 2011 +1100
+summary:     Video conversion of silence data implemented (a new bug found -- the conversion or copy creates new created date -- always the date of upload)
+
+changeset:   344:bbd6701b8f9c
+branch:      Tomas_upload_files__chunks_entireItem
+parent:      342:355049964964
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 10 11:00:42 2011 +1100
+summary:     New branch for file upload with chunked data processing, file upload of entire items at once
+
+changeset:   343:ffc1d562b978
+branch:      Tomas_status_clean
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 10 10:58:54 2011 +1100
+summary:     New branch for status and clean operations on all sessions
+
+changeset:   342:355049964964
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Nov 10 10:56:56 2011 +1100
+summary:     Fixed try-except statement around creating dirs in video_convert
+
+changeset:   341:68b8ee4a56e5
+user:        stevecassidy
+date:        Wed Nov 09 18:18:49 2011 +1100
+summary:     remove old installations in installer
+
+changeset:   340:0bb252fe3bc0
+user:        stevecassidy
+date:        Wed Nov 09 18:18:17 2011 +1100
+summary:     cleaning up compression pipeline
+
+changeset:   339:d55ed2a4c1b6
+user:        stevecassidy
+date:        Wed Nov 09 18:17:46 2011 +1100
+summary:     reading and verifying with manifests, write manifests after session,
+
+changeset:   338:316952300f34
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Tue Nov 08 11:23:46 2011 +1100
+summary:     Update icons in installer
+
+changeset:   337:8a381f36692c
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 08 08:32:40 2011 +1100
+summary:     Improved manifest, silence and calibration GUI upload
+
+changeset:   336:595d3de64158
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 07 09:17:45 2011 +1100
+summary:     Fixing config.config('PROTO', 'https')
+
+changeset:   335:c7f5d01c02bc
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Nov 07 08:55:51 2011 +1100
+summary:     Manifest, silence and calibration integrated into upload and comprUpload GUI (beta)
+
+changeset:   334:c38f2b4b0216
+parent:      331:8723eeed5ada
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Nov 06 11:48:38 2011 +1100
+summary:     Fixed indentation
+
+changeset:   333:5cad8a2d9c91
+branch:      Tomas_copier_parallel_execution
+parent:      327:5402525aa7f6
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Nov 06 10:38:36 2011 +1100
+summary:     Closing multiprocessing branch (merged to the default)
+
+changeset:   332:e3f8ab9c7c0c
+branch:      deleteme
+parent:      304:12ae4cfc0be8
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Nov 06 10:37:30 2011 +1100
+summary:     Closing ``deleteme'' branch
+
+changeset:   331:8723eeed5ada
+parent:      330:b310722e5662
+parent:      327:5402525aa7f6
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Nov 06 10:36:25 2011 +1100
+summary:     Merge -- multiprocessing merged to the default branch
+
+changeset:   330:b310722e5662
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sun Nov 06 10:27:26 2011 +1100
+summary:     Protocol (http or https) derived from config
+
+changeset:   329:7dfe631c87bb
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Nov 05 13:22:46 2011 +1100
+summary:     Calibration and silence -- basics in command line working
+
+changeset:   328:470bfc466865
+parent:      326:41ede9142dc7
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Wed Nov 02 13:39:20 2011 +1100
+summary:     Draft of calibrations, silence and manifests uploads
+
+changeset:   327:5402525aa7f6
+branch:      Tomas_copier_parallel_execution
+parent:      319:e03499ffd987
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Wed Nov 02 09:36:15 2011 +1100
+summary:     Implemented catching exceptions during the upload so that it's not thrown to the multiprocessing module, fixed a few other little details such as giving pool reference to the parent frame during upload and compression
+
+changeset:   326:41ede9142dc7
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Nov 01 15:17:52 2011 +1100
+summary:     Moved manifest generation into session class
+
+changeset:   325:144a53a5c837
+parent:      324:b7f79bae94ff
+parent:      320:4af1e0fc782d
+user:        Steve Cassidy
+date:        Tue Nov 01 11:32:53 2011 +1100
+summary:     Merge
+
+changeset:   324:b7f79bae94ff
+user:        steve
+date:        Tue Nov 01 11:04:10 2011 +1100
+summary:     changes missed from merge
+
+changeset:   323:5a586e11c2af
+parent:      322:c5c43ab90e0f
+parent:      319:e03499ffd987
+user:        steve
+date:        Tue Nov 01 11:03:12 2011 +1100
+summary:     Merge with e03499ffd9872a8378a096a195eb2b9b0fd3059c
+
+changeset:   322:c5c43ab90e0f
+user:        steve
+date:        Tue Nov 01 10:59:49 2011 +1100
+summary:     A few more notes on building distributions
+
+changeset:   321:9c2f3140494e
+parent:      312:708d0f1817ff
+user:        Steve Cassidy
+date:        Thu Oct 27 17:40:01 2011 +1100
+summary:     Fix https via proxy issues in xml file upload.
+
+changeset:   320:4af1e0fc782d
+parent:      318:d2978313e789
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Oct 31 10:36:31 2011 +1100
+summary:     Generate manifests -- draft
+
+changeset:   319:e03499ffd987
+branch:      Tomas_copier_parallel_execution
+parent:      317:af389521d2e4
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Oct 29 15:22:55 2011 +1100
+summary:     Hopefully fixed a race condition when creating directories during convert
+
+changeset:   318:d2978313e789
+parent:      312:708d0f1817ff
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Oct 28 11:54:05 2011 +1100
+summary:     Local config
+
+changeset:   317:af389521d2e4
+branch:      Tomas_copier_parallel_execution
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Oct 27 18:47:44 2011 +1100
+summary:     Finishing off multiprocessing -- fixing upload and compression themselves
+
+changeset:   316:c15051a5bb0d
+branch:      Tomas_copier_parallel_execution
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Oct 27 16:47:23 2011 +1100
+summary:     use the right source directory in compresion script
+
+changeset:   315:8af9646f6474
+branch:      Tomas_copier_parallel_execution
+parent:      314:f07b2230cc29
+parent:      312:708d0f1817ff
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Oct 27 12:59:57 2011 +1100
+summary:     Merge
+
+changeset:   314:f07b2230cc29
+branch:      Tomas_copier_parallel_execution
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Oct 27 12:59:09 2011 +1100
+summary:     Implementing clean exit + GUI responsiveness through periodical call to wx.Yield
+
+changeset:   313:8895b938d2de
+branch:      Tomas_copier_parallel_execution
+parent:      311:e927c9734ff9
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Tue Oct 25 15:52:41 2011 +1100
+summary:     Fix typo that passed host instead of directory target to compression.
+
+changeset:   312:708d0f1817ff
+parent:      310:76a373a0ecee
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Oct 24 18:14:54 2011 +1100
+summary:     Replacing sqlite with native python structures
+
+changeset:   311:e927c9734ff9
+branch:      Tomas_copier_parallel_execution
+parent:      307:d043fc4d8b15
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Oct 24 13:41:58 2011 +1100
+summary:     Removed forgotten pool
+
+changeset:   310:76a373a0ecee
+user:        steve
+date:        Mon Oct 24 10:53:28 2011 +1100
+summary:     Handle -all option properly in process_session
+
+changeset:   309:9fe0ef3918aa
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Oct 22 13:30:57 2011 +1100
+summary:     Urllib to Urllib2 + some enhancements of httplib usages (Issue #6)
+
+changeset:   308:19dbcdefd393
+parent:      303:63b6ed1863e5
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Oct 22 02:36:48 2011 +1100
+summary:     Fixing displaying server host in the GUI
+
+changeset:   307:d043fc4d8b15
+branch:      Tomas_copier_parallel_execution
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Oct 22 02:32:10 2011 +1100
+summary:     Multiprocessing done :)
+
+changeset:   306:c39fdfa9654a
+branch:      Tomas_copier_parallel_execution
+parent:      305:27ec85f102c6
+parent:      304:12ae4cfc0be8
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Oct 22 02:20:46 2011 +1100
+summary:     Merge
+
+changeset:   305:27ec85f102c6
+branch:      Tomas_copier_parallel_execution
+parent:      275:4e0702aa19bc
+parent:      303:63b6ed1863e5
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Oct 22 02:17:53 2011 +1100
+summary:     Merge
+
+changeset:   304:12ae4cfc0be8
+branch:      deleteme
+parent:      302:43735e14cdec
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Oct 22 02:10:23 2011 +1100
+summary:     Temporarily putting all multiprocessing things into this branch
+
+changeset:   303:63b6ed1863e5
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Sat Oct 22 02:05:32 2011 +1100
+summary:     Improved error reporting in the GUI
+
+changeset:   302:43735e14cdec
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Oct 20 15:35:54 2011 +1100
+summary:     Fixed sharing sqlite3 connection -- concurrency (threading) problems  when executed from django by apache2, improved error messages for Upload
+
+changeset:   301:c7fcff650d51
+user:        steve
+date:        Tue Oct 18 15:04:46 2011 +1100
+summary:     Wrong name for setting in MENCODER_PROGRAM
+
+changeset:   300:d3635569cf4e
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Oct 18 14:34:29 2011 +1100
+summary:     Adding some debug info when uploading files
+
+changeset:   299:214563e9d383
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Oct 18 13:50:06 2011 +1100
+summary:     HTTP/HTTPS automatic recognition
+
+changeset:   298:9fa5ee3a9a75
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Mon Oct 17 18:39:15 2011 +1100
+summary:     Make the copier GUI use python not pythonw to give a permanent terminal window instead of flashing windows each time ffmpeg runs.
+
+changeset:   297:18dc813a9b12
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Mon Oct 17 18:38:18 2011 +1100
+summary:     New versions of dlls and adding MS debugging dlls to make the install work.
+
+changeset:   296:8832c734884a
+user:        steve
+date:        Mon Oct 17 16:53:44 2011 +1100
+summary:     Add upload host to ini file on installation.
+
+changeset:   295:c4800ae2a0e2
+parent:      294:4b0eaec0076a
+parent:      291:912e69d56448
+user:        steve
+date:        Mon Oct 17 16:36:37 2011 +1100
+summary:     Merge with 912e69d5644824811bd855d3c93e648ebe295e8c
+
+changeset:   294:4b0eaec0076a
+user:        steve
+date:        Mon Oct 17 16:32:18 2011 +1100
+summary:     Add a status message when scanning files before compress/upload step.
+
+changeset:   293:ae98376ca88a
+user:        steve
+date:        Mon Oct 17 16:00:50 2011 +1100
+summary:     Make the Finish panel behave properly in do().
+
+changeset:   292:ac239f524bca
+parent:      290:18806ad75179
+user:        steve
+date:        Mon Oct 17 16:00:11 2011 +1100
+summary:     Add a test for connection to the server and disable upload if we can't.
+
+changeset:   291:912e69d56448
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Oct 17 16:25:18 2011 +1100
+summary:     Disable compress/upload buttons while performing compress/upload
+
+changeset:   290:18806ad75179
+user:        steve
+date:        Mon Oct 17 14:53:22 2011 +1100
+summary:     Don't put temp directories in source tree, use system temp dir instead.
+
+changeset:   289:c187faac64ad
+user:        steve
+date:        Mon Oct 17 13:48:10 2011 +1100
+summary:     Fix logging and remove some print statements in copier gui
+
+changeset:   288:2538772c08cb
+user:        steve
+date:        Mon Oct 17 13:18:17 2011 +1100
+summary:     Delay scanning for items until we actually need to process them in the copier GUI.
+
+changeset:   287:0b1e78abbe5e
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Mon Oct 17 11:20:59 2011 +1100
+summary:     Load items only when needed when scanning for components.
+
+changeset:   286:5d4e70d65661
+user:        steve
+date:        Sun Oct 16 14:38:50 2011 +1100
+summary:     Allow choosing directories for compress/upload.
+
+changeset:   285:07e1ba9502a3
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Sat Oct 15 17:49:45 2011 +1100
+summary:     Use PATH settings from config in copier.
+
+changeset:   284:ad0f92fcde75
+user:        steve
+date:        Sat Oct 15 17:18:54 2011 +1100
+summary:     Turn on clean up flag
+
+changeset:   283:c130260710ab
+parent:      282:e06f5c53e3d5
+parent:      281:508954f71bcf
+user:        steve
+date:        Sat Oct 15 17:14:23 2011 +1100
+summary:     Merge with 508954f71bcfeb0e2b11e196faa60d340c7592ce
+
+changeset:   282:e06f5c53e3d5
+parent:      279:4be1bf341aa7
+user:        steve
+date:        Sat Oct 15 17:09:07 2011 +1100
+summary:     Clean up some config values.
+
+changeset:   281:508954f71bcf
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Fri Oct 14 17:39:26 2011 +1100
+summary:     Fix XML generation after compression/copy step - had partial paths instead of just basename.
+
+changeset:   280:210295e0780f
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Oct 14 11:18:38 2011 +1100
+summary:     Fixed http and https recognition
+
+changeset:   279:4be1bf341aa7
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Wed Oct 12 20:11:53 2011 +1100
+summary:     Fixing errors in upload script
+
+changeset:   278:b59520e56d68
+user:        stevecassidy
+date:        Wed Oct 12 16:06:22 2011 +1100
+summary:     Getting compression to work properly, fixing some configuration stuff, some hacking on upload (but not working yet)
+
+changeset:   277:b19f61d8427a
+user:        stevecassidy
+date:        Wed Oct 12 12:07:15 2011 +1100
+summary:     Add code to validate metadata fields and add missing camera ids to old metadata.
+
+changeset:   276:f024d00fd31d
+parent:      272:d7f8d1ca0e8e
+user:        stevecassidy
+date:        Wed Oct 12 12:06:33 2011 +1100
+summary:     Remove unused code
+
+changeset:   275:4e0702aa19bc
+branch:      Tomas_copier_parallel_execution
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Wed Oct 12 14:05:26 2011 +1100
+summary:     Parallelism in 'upload' and 'compress'
+
+changeset:   274:0cf5f057ea9e
+branch:      Tomas_copier_parallel_execution
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Wed Oct 12 12:04:25 2011 +1100
+summary:     Fix - at least one worker for compression and one for upload
+
+changeset:   273:01b058a1fff5
+branch:      Tomas_copier_parallel_execution
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Wed Oct 12 11:48:08 2011 +1100
+summary:     Parallel processing for ComprUpload ready for review
+
+changeset:   272:d7f8d1ca0e8e
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Oct 11 23:01:28 2011 +1100
+summary:     Improved GUI, little mostly non-functional things
+
+changeset:   271:b84d7bcdf40c
+user:        stevecassidy
+date:        Tue Oct 11 17:53:05 2011 +1100
+summary:     Some tidying of code in copier
+
+changeset:   270:17921e2a4b95
+parent:      269:f18c37d1e1df
+parent:      267:4ac210251d0f
+user:        stevecassidy
+date:        Tue Oct 11 09:39:59 2011 +1100
+summary:     Merge with 4ac210251d0fc1bffd823a1241dd5f7b81e2ce87
+
+changeset:   269:f18c37d1e1df
+user:        stevecassidy
+date:        Tue Oct 11 09:38:55 2011 +1100
+summary:     Added tag release-1.1 for changeset e69fb3cf9995
+
+changeset:   268:e69fb3cf9995
+tag:         release-1.1
+parent:      266:6130438130c3
+user:        stevecassidy
+date:        Mon Oct 10 16:32:16 2011 +1100
+summary:     uncomment message in not-connected case for validation
+
+changeset:   267:4ac210251d0f
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Oct 11 01:19:24 2011 +1100
+summary:     Gui for data processing beta 0.001
+
+changeset:   266:6130438130c3
+user:        steve
+date:        Mon Oct 10 16:18:04 2011 +1100
+summary:     fix no network access case
+
+changeset:   265:7fe98231e52c
+parent:      264:1db72633417f
+parent:      256:1f809c609bde
+user:        stevecassidy
+date:        Fri Oct 07 10:09:12 2011 +1100
+summary:     Merge with 1f809c609bde701003ba7d4b03a6916c007d607e
+
+changeset:   264:1db72633417f
+user:        stevecassidy
+date:        Fri Oct 07 09:45:39 2011 +1100
+summary:     special case check for "dummy" identifier in participant validation. Remove dummy animal since dummy colour is enough.
+
+changeset:   263:88c818cdfd39
+user:        stevecassidy
+date:        Fri Oct 07 09:42:23 2011 +1100
+summary:     Write metadata in another thread to stop delay when calculating checksums of large files. Needs testing on BB.
+
+changeset:   262:d2ab6ba53a27
+user:        stevecassidy
+date:        Thu Oct 06 18:38:49 2011 +1100
+summary:     make sure that the silence folder exists before recording silence
+
+changeset:   261:2a4a978b6db9
+user:        stevecassidy
+date:        Thu Oct 06 18:33:55 2011 +1100
+summary:     Add over the web validation of participant id
+
+changeset:   260:a4060253b428
+user:        stevecassidy
+date:        Thu Oct 06 17:42:44 2011 +1100
+summary:     Don't crash if backend initialisation failes, pop up a message and allow continuation in test mode.
+
+changeset:   259:4ce2cf8bdb8c
+user:        stevecassidy
+date:        Thu Oct 06 17:38:28 2011 +1100
+summary:     Order animls by name rather than ID
+
+changeset:   258:ddf317926c82
+user:        stevecassidy
+date:        Thu Oct 06 17:37:28 2011 +1100
+summary:     ensure that videoconvert is loaded after hardware, otherwise loading hardware fails
+
+changeset:   257:6519a782fc80
+parent:      255:0b7d8384d8b0
+user:        stevecassidy
+date:        Thu Oct 06 17:36:42 2011 +1100
+summary:     More build notes and another version of flycapture dll - still not a full build solution
+
+changeset:   256:1f809c609bde
+user:        Austalk-user@Austalk01.uws.edu.au
+date:        Wed Oct 05 17:05:55 2011 +1100
+summary:     Comment out the buffer_mode setting code. Use the default drop_frame mode. The buffer mode causes potential delay problems.
+
+changeset:   255:0b7d8384d8b0
+parent:      254:e6c19e854073
+parent:      250:40e0e6209bf6
+user:        stevecassidy
+date:        Wed Oct 05 15:16:48 2011 +1100
+summary:     Merge with 40e0e6209bf602ed7bed0e428478c3cf905aa05a
+
+changeset:   254:e6c19e854073
+user:        stevecassidy
+date:        Wed Oct 05 15:16:34 2011 +1100
+summary:     fixing up installation
+
+changeset:   253:67f7bbb79aec
+user:        stevecassidy
+date:        Wed Oct 05 15:14:41 2011 +1100
+summary:     trying to fix up build system
+
+changeset:   252:315731f1847e
+user:        stevecassidy
+date:        Tue Oct 04 13:07:19 2011 +1100
+summary:     Add missing dll files and executable programs to  vc
+
+changeset:   251:be25fb83df84
+parent:      246:a378d58ba7f4
+user:        stevecassidy
+date:        Fri Sep 23 14:49:23 2011 +1000
+summary:     Add notes on building and try to fix the jam file for new build machine
+
+changeset:   250:40e0e6209bf6
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Sep 30 20:37:51 2011 +1000
+summary:     Fixing server address for the file_upload test
+
+changeset:   249:b340e7b8e05f
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Sep 30 17:38:21 2011 +1000
+summary:     Writing tests for the datafile upload and correcting a few little things along the way, also documenting
+
+changeset:   248:bf26b36a6528
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Sep 23 19:52:25 2011 +1000
+summary:     Marking test files as not uploaded (in xmls)
+
+changeset:   247:7932cef35e58
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Fri Sep 23 19:50:27 2011 +1000
+summary:     Removing 'print's from when initializing sqlite DB because Django app doesn't allow that
+
+changeset:   246:a378d58ba7f4
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Thu Sep 22 23:48:31 2011 +1000
+summary:     Fixed absolute path for sqlite DB
+
+changeset:   245:6c597253c4e2
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 22 18:14:09 2011 +1000
+summary:     Add Inno-Setup config file. Make use of config.ini for ffmpeg and mencoder paths, add some missing
+
+changeset:   244:dc9c8b22c1ab
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 22 16:22:26 2011 +1000
+summary:     Trying to make the copier gui more responsive, not really succeeding.
+
+changeset:   243:cdb5729993b9
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 22 15:23:19 2011 +1000
+summary:     Raise exceptions properly
+
+changeset:   242:a8d110d3ed6a
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 22 15:21:33 2011 +1000
+summary:     Get the camera serial number from the metadata when converting video files
+
+changeset:   241:f8cd998c8f3c
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 22 12:03:23 2011 +1000
+summary:     Add GetCameraSN to the hardware SSCPBackend module and then add both camera serial
+
+changeset:   240:9cf45d0ad19f
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 22 11:54:08 2011 +1000
+summary:     Ensure that two cameras are started for the Conversation component, fix the
+
+changeset:   239:ab873b4a5e19
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Wed Sep 21 18:20:19 2011 +1000
+summary:     More work on the copier program, now doing the job but needs some options
+
+changeset:   238:a65d688e8041
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Wed Sep 21 18:08:36 2011 +1000
+summary:     Fix some prompts.
+
+changeset:   237:dd4a2c1ab688
+parent:      235:803b59a8b1b7
+parent:      236:92e379a85110
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Sep 21 11:54:42 2011 +1000
+summary:     merge
+
+changeset:   236:92e379a85110
+parent:      234:d0ed0b17b87a
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Tue Sep 20 18:27:33 2011 +1000
+summary:     Adding draft of a test for upload_files
+
+changeset:   235:803b59a8b1b7
+user:        steve
+date:        Wed Sep 21 11:52:54 2011 +1000
+summary:     Updates to copier application, add progress bar, close when done. Better dummying of video conversion for testing.
+
+changeset:   234:d0ed0b17b87a
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Tue Sep 20 17:28:12 2011 +1000
+summary:     Modify ffmpeg arguments to give fixed bit rate encoding
+
+changeset:   233:3461c0cdbdb4
+parent:      231:8c05b2c25182
+parent:      232:13651a21e251
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Tue Sep 20 14:51:25 2011 +1000
+summary:     Merge
+
+changeset:   232:13651a21e251
+parent:      230:0170dd5d65f9
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Tue Sep 20 14:49:47 2011 +1000
+summary:     re-insert deleted line!
+
+changeset:   231:8c05b2c25182
+user:        steve
+date:        Tue Sep 20 14:48:05 2011 +1000
+summary:     Use the right numbers for colour processing algorithm and pixel format.
+
+changeset:   230:0170dd5d65f9
+user:        steve
+date:        Tue Sep 20 09:33:34 2011 +1000
+summary:     add process component script
+
+changeset:   229:e7d232cbece0
+parent:      228:7a0c194c2720
+parent:      225:9d2d8041d752
+user:        steve
+date:        Tue Sep 20 09:30:35 2011 +1000
+summary:     Merge with 9d2d8041d752d77f9e537f1ac75add2eefa94323
+
+changeset:   228:7a0c194c2720
+user:        steve
+date:        Tue Sep 20 09:27:59 2011 +1000
+summary:     remove binary .so from version control
+
+changeset:   227:f7767c626e04
+user:        steve
+date:        Tue Sep 20 09:26:20 2011 +1000
+summary:     Add command line script to process a single component
+
+changeset:   226:ebe99c261510
+parent:      224:2b7be8bd0a3d
+user:        steve
+date:        Mon Sep 19 17:57:44 2011 +1000
+summary:     silence directory path needs a trailing dir separator
+
+changeset:   225:9d2d8041d752
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Tue Sep 20 09:05:29 2011 +1000
+summary:     all output from ffmpeg/mencoder goes to devnull, fix typo in edit of convert_avi_files
+
+changeset:   224:2b7be8bd0a3d
+user:        steve
+date:        Mon Sep 19 17:38:06 2011 +1000
+summary:     Clean up convert code and try redirecting stderr to devnull to avoid hangup on windows
+
+changeset:   223:e280654def5c
+user:        steve
+date:        Mon Sep 19 17:37:23 2011 +1000
+summary:     Should call StartMapTaskRecording for maptasks to get both cameras
+
+changeset:   222:4dbd2f78ebf5
+user:        Tomas Krajca <t.l.krajca@gmail.com>
+date:        Mon Sep 19 13:56:40 2011 +1000
+summary:     Data upload - beta version finished
+
+changeset:   221:ff09838bfd43
+user:        Tomas Krajca
+date:        Sat Sep 17 22:04:10 2011 +1000
+summary:     Working on the file upload onto the server
+
+changeset:   220:3a3c3d2114bc
+user:        steve
+date:        Fri Sep 16 18:58:03 2011 +1000
+summary:     Ensure each component has at least one prompt slide, otherwise we don't get any items recoreded.  Add Conversation component after maptask 1, remove extra items from maptask 1.
+
+changeset:   219:b9899fe958ab
+user:        steve
+date:        Fri Sep 16 18:30:27 2011 +1000
+summary:     Write additional metadata for the maptask second speaker.
+
+changeset:   218:2e9bbe642cd8
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Fri Sep 16 16:25:51 2011 +1000
+summary:     deal with camera serial numbers better, store calibration files in a
+
+changeset:   217:8d122cfaed5b
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Fri Sep 16 10:23:13 2011 +1000
+summary:     Changes needed to build on Windows with bjam, working build.
+
+changeset:   216:1b28e9b12da3
+user:        steve
+date:        Thu Sep 15 22:53:38 2011 +1000
+summary:     Remove unused sources, add main Python entry point and start setup of Jamfile
+
+changeset:   215:a69770571e18
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 15 18:51:41 2011 +1000
+summary:     Add readme file from SSCPBackend project.
+
+changeset:   214:55d9fe7b5667
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 15 18:49:32 2011 +1000
+summary:     Added C++ files for hardware recording from other project (SSCPBackend)
+
+changeset:   213:11a99ff8b4e0
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 15 18:31:32 2011 +1000
+summary:     Add rectification files (missed last commit) and triclops.dll which is needed
+
+changeset:   212:ee8d0cd937b7
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Thu Sep 15 18:30:54 2011 +1000
+summary:     Ported Lei's rectification conversion code to the jam based build,
+
+changeset:   211:26618ed4a2a9
+user:        Austalk-user@Austalk08.mq.edu.au
+date:        Wed Sep 14 15:36:34 2011 +1000
+summary:     Working jam based build on windows 64 bit
+
+changeset:   210:b67db4448928
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Sep 07 13:23:23 2011 +1000
+summary:     new version of austalk logo with cream bg
+
+changeset:   209:538cb6c95cb2
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Sep 07 13:19:42 2011 +1000
+summary:     add script to extract text from pptx files and generate map files - not used yet
+
+changeset:   208:7225e1290ba1
+user:        steve
+date:        Wed Sep 07 13:10:42 2011 +1000
+summary:     New slides for setup component
+
+changeset:   207:0f4b1723a603
+user:        steve
+date:        Wed Sep 07 13:09:43 2011 +1000
+summary:     Correct errors in protocol - components missing and misplaced in some sessions.
+
+changeset:   206:0def627024b7
+user:        steve
+date:        Wed Sep 07 09:54:00 2011 +1000
+summary:     Use Slide1.JPG as default image for prompts (title slide), replace some prompt images with newer versions, ensure default and other images are in place.
+
+changeset:   205:57ee638bf111
+user:        steve
+date:        Mon Sep 05 12:12:53 2011 +1000
+summary:     Add sample calibration file
+
+changeset:   204:fe4fb1d11c4d
+user:        steve
+date:        Mon Sep 05 12:11:19 2011 +1000
+summary:     Modify args to RawToAvi extension, provide a python dummy for testing, try to handle calibration files
+
+changeset:   203:2256d390ee96
+user:        steve
+date:        Fri Sep 02 17:17:32 2011 +1000
+summary:     resize development windows to same size as BB screen (1280x1024),  rescale some images for larger size on RA screen
+
+changeset:   202:6ffbe8e14fdf
+user:        steve
+date:        Fri Sep 02 10:40:20 2011 +1000
+summary:     Improve initial screen layout, match colour to new slide background colour.
+
+changeset:   201:ae06ab59af72
+user:        steve
+date:        Fri Aug 26 15:07:55 2011 +1000
+summary:     Session number 4 wasn't being matched
+
+changeset:   200:7fd0bdf31e2a
+user:        steve
+date:        Fri Aug 26 15:03:12 2011 +1000
+summary:     remove redundant code in RecordedSession
+
+changeset:   199:0ffaf6ddc573
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Aug 26 14:50:54 2011 +1000
+summary:     add HTML generation to process_session to generate a browsable view of one or more sessions
+
+changeset:   198:97b3a416c77d
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Aug 26 10:33:53 2011 +1000
+summary:     Added new prompt files based on powerpoint. Fixed bug in LoadParticipant
+
+changeset:   197:6b13a6f86eb6
+user:        steve
+date:        Fri Aug 26 09:44:24 2011 +1000
+summary:     Added recording button on first page to optionally record 60s of silence. Stored in a separate directory under recordings with a filename based on the date.
+
+changeset:   196:fccfcc325a9c
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Aug 23 17:38:58 2011 +1000
+summary:     added new powerpoint prompts and derived slide image files
+
+changeset:   195:1a65e09cb47d
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Aug 23 17:33:03 2011 +1000
+summary:     use new metadata writer in recording tool, add some more readable fields
+
+changeset:   194:274c2d7cd60a
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Thu Aug 18 11:15:33 2011 +1000
+summary:     added tests for video conversion and utility script to convert one file
+
+changeset:   193:ab30e2cd53fa
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Aug 09 10:49:49 2011 +1000
+summary:     sort file list in test before comparison
+
+changeset:   192:949de74cb43d
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Aug 09 10:47:00 2011 +1000
+summary:     remove reference to unused header in C++ code
+
+changeset:   191:f08eef50485f
+user:        steve
+date:        Tue Aug 09 10:39:12 2011 +1000
+summary:     clean up log writing, log now in destination directory. Add real test data for conversion. Clean up metadata output.
+
+changeset:   190:9681afdc22bb
+user:        steve
+date:        Mon Aug 08 18:16:34 2011 +1000
+summary:     tests for video file conversion and copying. Code working against the tests.
+
+changeset:   189:1f5bb0af16a0
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Aug 08 14:19:08 2011 +1000
+summary:     restoring test data, removing copied files
+
+changeset:   188:2195d9a58f8c
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Fri Aug 05 17:28:42 2011 +1000
+summary:     tiny cleanup
+
+changeset:   187:e569ed977511
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Fri Aug 05 17:27:56 2011 +1000
+summary:     now using metadata code in RecordedItem for copying the compressed file
+
+changeset:   186:23ddf64b6f57
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Fri Aug 05 16:34:13 2011 +1000
+summary:     copying code now uses RecordedItem properties instead of ugly regular expressions
+
+changeset:   185:cbff4a31e241
+parent:      184:20ffbaee3366
+parent:      183:4896a63e6112
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Fri Aug 05 15:18:44 2011 +1000
+summary:     merge
+
+changeset:   184:20ffbaee3366
+parent:      180:5ced09103899
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Wed Aug 03 08:00:24 2011 +1000
+summary:     refactored version is now sucessfully copying files - running to completion
+
+changeset:   183:4896a63e6112
+user:        steve
+date:        Fri Aug 05 15:02:03 2011 +1000
+summary:     Move item path name generation into RecordedItem and other small changes around video conversion.
+
+changeset:   182:c0bc9985c6b5
+user:        steve
+date:        Thu Aug 04 10:32:54 2011 +1000
+summary:     Added validation script to validate an individual session directory
+
+changeset:   181:7a99b708e556
+user:        steve
+date:        Thu Aug 04 10:20:39 2011 +1000
+summary:     Move directory scanning into different Recorded* objects, added tests for RecordedSession. Validation working ok.
+
+changeset:   180:5ced09103899
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Tue Aug 02 15:27:49 2011 +1000
+summary:     refactoring to get all data handling code into a new module.  I have completed the refactorig, but I don't have time to test it right now
+
+changeset:   179:b4aee686d7b4
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Aug 02 11:46:51 2011 +1000
+summary:     Refactoring of code into modules as outlined in notes.txt
+
+changeset:   178:fd33d68dcb9d
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Tue Aug 02 11:20:31 2011 +1000
+summary:     added missing files from last revision
+
+changeset:   177:8eb4fbb5f3c6
+parent:      176:0956e5e5da9a
+parent:      174:35ff18da8f8a
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Aug 02 10:52:00 2011 +1000
+summary:     merge
+
+changeset:   176:0956e5e5da9a
+user:        steve
+date:        Mon Aug 01 17:56:34 2011 +1000
+summary:     Start to make RecordedItem be dictionary like, will use for metadata properties
+
+changeset:   175:409b3dd19f52
+parent:      172:1429a83100a7
+user:        steve
+date:        Mon Aug 01 17:28:53 2011 +1000
+summary:     Updated notes, build.txt file for videoconvert extension
+
+changeset:   174:35ff18da8f8a
+parent:      173:77b968772595
+parent:      172:1429a83100a7
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Tue Aug 02 10:50:22 2011 +1000
+summary:     merge:
+
+changeset:   173:77b968772595
+parent:      161:e5cc74673315
+user:        Matt Roberts <alt.mattr@zoho.com>
+date:        Tue Jul 26 11:21:44 2011 +1000
+summary:     move to the new behaviour and try to isolate wx imports, not very successfully
+
+changeset:   172:1429a83100a7
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Aug 01 17:19:02 2011 +1000
+summary:     cleaning up video convert code - removing unused files
+
+changeset:   171:ddb59e0108c3
+user:        steve
+date:        Mon Aug 01 17:14:48 2011 +1000
+summary:     Add config module and sample config.ini file at top level of project. Values from config.ini are not yet used
+
+changeset:   170:3f7e7f0331c8
+user:        steve
+date:        Mon Aug 01 16:50:34 2011 +1000
+summary:     Moved RecordedItem into copying module. Added tests.
+
+changeset:   169:1102e55d62e1
+parent:      168:6cf955eb2a5a
+parent:      160:1f77d06bb5d8
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Aug 01 08:46:17 2011 +1000
+summary:     merge
+
+changeset:   168:6cf955eb2a5a
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Aug 01 08:45:52 2011 +1000
+summary:     add a util module and some tests
+
+changeset:   167:ce9ee712a387
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Jul 29 12:48:33 2011 +1000
+summary:     improvements to benchmarking script and video conversion
+
+changeset:   166:5786f814912d
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Thu Jul 28 18:54:11 2011 +1000
+summary:     big file conversion using mencoder
+
+changeset:   165:63a115522b1e
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Thu Jul 28 17:22:33 2011 +1000
+summary:     start work on joining large mp4 files together
+
+changeset:   164:f9d43710d314
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Jul 27 15:38:18 2011 +1000
+summary:     Added benchmark script. Clean up video conversion so it doesn't leave anything behind.
+
+changeset:   163:7fd30fdc94e1
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Jul 26 17:21:09 2011 +1000
+summary:     added C++ extension for converting video using flycapture and ffmpeg - compiling on linux
+
+changeset:   162:250a379746fd
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Jul 20 13:23:40 2011 +1000
+summary:     add sample data for copying app
+
+changeset:   161:e5cc74673315
+parent:      158:06fbad748736
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Jul 20 13:15:43 2011 +1000
+summary:     add file copying module and entry point
+
+changeset:   160:1f77d06bb5d8
+parent:      159:3d51b057508a
+parent:      158:06fbad748736
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Jul 06 12:30:31 2011 +1000
+summary:     merge
+
+changeset:   159:3d51b057508a
+parent:      157:313819c7e8cd
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Jul 06 12:30:19 2011 +1000
+summary:     change extension on dummy video files
+
+changeset:   158:06fbad748736
+parent:      156:f3b8b14d0ec8
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Jul 04 16:55:10 2011 +1000
+summary:     Added tag release-1-0 for changeset f3b8b14d0ec8
+
+changeset:   157:313819c7e8cd
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Jul 06 12:26:34 2011 +1000
+summary:     get the right path names in the dummy backend
+
+changeset:   156:f3b8b14d0ec8
+tag:         release-1-0
+user:        steve
+date:        Mon Jul 04 10:33:18 2011 +1000
+summary:     Partial solution to map task metadata output - does everything except write the metadata file
+
+changeset:   155:71c37e62817a
+user:        steve
+date:        Fri Jul 01 17:00:54 2011 +1000
+summary:     Change names of session 3 to 3.1, 3.2
+
+changeset:   154:ca66d745082a
+user:        Jon Drummond
+date:        Fri Jul 01 13:38:49 2011 +1000
+summary:     Remove speaker identity check - not yet implemented on the server side
+
+changeset:   153:26e5e480c99b
+user:        Jon Drummond
+date:        Fri Jul 01 13:34:09 2011 +1000
+summary:     Add a 'production' setting and make the recorded data go into the root of the installed drive if we are in production.
+
+changeset:   152:b5209723923d
+user:        Jon Drummond
+date:        Fri Jul 01 13:33:30 2011 +1000
+summary:     Give ParticipantChooser a name and label param so we can change the label without having to change all the code that relies on the name.
+
+changeset:   151:791428c93421
+user:        Jon Drummond
+date:        Fri Jul 01 11:29:25 2011 +1000
+summary:     Make sure video preview window is closed before we start recording.
+
+changeset:   150:59669bb5bddd
+user:        Jon Drummond
+date:        Fri Jul 01 11:05:05 2011 +1000
+summary:     Ensure that recording paths are absolute and that they
+
+changeset:   149:3d88e0f939c3
+parent:      148:01d5021fd881
+parent:      147:8d7332df79ce
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Thu Jun 30 14:04:12 2011 +1000
+summary:     merge
+
+changeset:   148:01d5021fd881
+parent:      146:a8961a489b7b
+user:        steve
+date:        Thu Jun 30 14:01:50 2011 +1000
+summary:     Write out per item metadata to an XML file in the same directory as the audio and video data. This contains the details of which files have been written and replaces the older metadata table in the database.
+
+changeset:   147:8d7332df79ce
+user:        Jon Drummond
+date:        Thu Jun 30 12:50:37 2011 +1000
+summary:     New buttons for Video Camera Setup (OpenCamCtrlDlg0, OpenCamCtrlDlg1)
+
+changeset:   146:a8961a489b7b
+user:        steve
+date:        Thu Jun 30 10:40:11 2011 +1000
+summary:     Remove combobox binding on participant when reseting main layout - binding is left over from maptask layout
+
+changeset:   145:6553f5a0dc36
+user:        steve
+date:        Wed Jun 29 11:10:21 2011 +1000
+summary:     fix window name mismatch in OnMaptaskStart
+
+changeset:   144:e1da2c7ad3c6
+user:        jon drummond
+date:        Wed Jun 29 09:49:19 2011 +1000
+summary:     Updated calibration prompts and map, changed "Information Receiver" to "Information Follower"
+
+changeset:   143:c81f83dcf210
+user:        jon drummond
+date:        Wed Jun 29 09:24:56 2011 +1000
+summary:     calibration prompts removed
+
+changeset:   142:9f49764c4ed4
+user:        jon drummond
+date:        Wed Jun 29 01:06:02 2011 +1000
+summary:     Updated Sentences opening prompts
+
+changeset:   141:92a38e19c033
+user:        jon drummond
+date:        Wed Jun 29 00:00:06 2011 +1000
+summary:     Updated prompts, updated component order, updated component timings in austalk.sql
+
+changeset:   140:aba8f250c70b
+user:        steve
+date:        Thu Jun 23 08:42:31 2011 +1000
+summary:     Sort file names based on their numerical components since files saved by powerpoint don't have leading zeros in general
+
+changeset:   139:c8e0014f2340
+user:        jon drummond
+date:        Thu Jun 23 00:28:03 2011 +1000
+summary:     Updated prompts/story.map
+
+changeset:   138:280b0846b562
+user:        jon drummond
+date:        Wed Jun 22 23:48:42 2011 +1000
+summary:     Prompts updated.
+
+changeset:   137:fe3a659335e4
+user:        jon drummond
+date:        Wed Jun 22 23:00:07 2011 +1000
+summary:     All old prompts removed!
+
+changeset:   136:a361e205432f
+user:        steve
+date:        Tue Jun 21 17:53:51 2011 +1000
+summary:     Fix display of role on maptask input for second speaker.
+
+changeset:   135:fd82d4adadc8
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Jun 21 15:56:45 2011 +1000
+summary:     don't version manage the database
+
+changeset:   134:83a36fb9f0d5
+user:        steve
+date:        Tue Jun 21 15:56:16 2011 +1000
+summary:     Re-create the database every time we run
+
+changeset:   133:7e1896a2ffc5
+user:        steve
+date:        Tue Jun 21 15:51:10 2011 +1000
+summary:     Add a dummy  colour and animal for trials in the GUI
+
+changeset:   132:9c14e32f2dd9
+user:        steve
+date:        Tue Jun 21 15:43:55 2011 +1000
+summary:     Confirm before moving to next component
+
+changeset:   131:50f604cad53f
+user:        steve
+date:        Mon Jun 20 08:23:20 2011 +1000
+summary:     Cleaning up recordedItem and path name changes
+
+changeset:   130:5b7b28840411
+user:        steve
+date:        Sun Jun 19 17:40:48 2011 +1000
+summary:     Merged
+
+changeset:   129:b1383e833703
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Sun Jun 19 17:33:01 2011 +1000
+summary:     reworking path names used for saving data
+
+changeset:   128:33d79c562291
+user:        steve
+date:        Thu Jun 16 19:49:00 2011 +1000
+summary:     Call StopRecordingYes/StopRecordingNo depending on the button press.
+
+changeset:   127:6197a6bba9b7
+user:        steve
+date:        Thu Jun 16 19:41:49 2011 +1000
+summary:     Fix: moving to next item at the end of a component didn't pause on the next component intro.
+
+changeset:   126:6c5053be77f5
+user:        steve
+date:        Thu Jun 16 17:39:59 2011 +1000
+summary:     Change the way that the controller manages the current component and item. Domain.Component now starts out with item=-1 to indicate it hasn't started traversing items yet.  The GUI can then differentiate being at the start of a component and being on the first item.  Prompt update now works properly for all conditions.
+
+changeset:   125:cd9b80a0f8fb
+user:        jon drummond
+date:        Thu Jun 16 12:05:49 2011 +1000
+summary:     New prompts (sentences and maps)
+
+changeset:   124:ebae50d44aec
+user:        steve
+date:        Thu Jun 16 10:04:17 2011 +1000
+summary:     Fix behaviour of video preview button (event was not being processed when not in session). Change the way that button enable/disable works.
+
+changeset:   123:a143e8a303f7
+parent:      122:17314ba844bc
+parent:      119:319db54f7626
+user:        steve
+date:        Wed Jun 15 17:53:33 2011 +1000
+summary:     Merge
+
+changeset:   122:17314ba844bc
+user:        steve
+date:        Wed Jun 15 17:52:34 2011 +1000
+summary:     Connect up video preview button to backend. Move
+
+changeset:   121:a61b50fb6c3a
+parent:      120:763369c5d452
+parent:      117:891538c8fa6b
+user:        steve
+date:        Wed Jun 15 17:25:42 2011 +1000
+summary:     Merge
+
+changeset:   120:763369c5d452
+parent:      115:269740837918
+user:        steve
+date:        Wed Jun 15 17:24:58 2011 +1000
+summary:     Add validation of participant prior to starting session.
+
+changeset:   119:319db54f7626
+user:        jon drummond
+date:        Wed Jun 15 17:33:19 2011 +1000
+summary:     Changed mapinterview to conversation
+
+changeset:   118:7a1bae4e04ea
+user:        jon drummond
+date:        Wed Jun 15 17:28:49 2011 +1000
+summary:     Added Conversation
+
+changeset:   117:891538c8fa6b
+user:        jon drummond
+date:        Wed Jun 15 17:11:34 2011 +1000
+summary:     Add video check frame button
+
+changeset:   116:f84be9abbef3
+user:        jon drummond
+date:        Wed Jun 15 17:07:55 2011 +1000
+summary:     Video Check button added
+
+changeset:   115:269740837918
+user:        jon drummond
+date:        Wed Jun 15 16:58:05 2011 +1000
+summary:     Audio Levels button name change
+
+changeset:   114:9cb184c05efa
+user:        jon drummond
+date:        Wed Jun 15 16:56:24 2011 +1000
+summary:     Changed setup screens
+
+changeset:   113:aac5732128e4
+user:        jon drummond
+date:        Wed Jun 15 16:53:17 2011 +1000
+summary:     New Prompts
+
+changeset:   112:cc4814ae0bf8
+user:        steve
+date:        Wed Jun 15 16:42:23 2011 +1000
+summary:     Disable Next Component button while recording.
+
+changeset:   111:ba822757bc7f
+user:        steve
+date:        Wed Jun 15 16:37:12 2011 +1000
+summary:     Add dummy definitions for video preview calls in backend
+
+changeset:   110:aecaef49415a
+user:        steve
+date:        Wed Jun 15 16:17:12 2011 +1000
+summary:     Move timer displays around in header, change font to new bigger one.
+
+changeset:   109:ac2eca5556f2
+user:        steve
+date:        Wed Jun 15 16:04:12 2011 +1000
+summary:     finish removing bits of status display
+
+changeset:   108:e898e3252756
+user:        steve
+date:        Wed Jun 15 15:58:35 2011 +1000
+summary:     remove status indicators since they don't do anything
+
+changeset:   107:e3ceb4240dbb
+user:        steve
+date:        Wed Jun 15 15:52:38 2011 +1000
+summary:     Change names of next/prev buttons. Add next component
+
+changeset:   106:f96bdb7f777d
+parent:      105:cb433f910d94
+parent:      104:7d50b34a1a8b
+user:        steve
+date:        Wed Jun 15 15:40:39 2011 +1000
+summary:     merging
+
+changeset:   105:cb433f910d94
+parent:      101:4567f3206a9f
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Wed Jun 15 15:24:28 2011 +1000
+summary:     Change the overall font of the GUI to something a bit bigger.
+
+changeset:   104:7d50b34a1a8b
+user:        jon drummond
+date:        Wed Jun 15 14:56:53 2011 +1000
+summary:     Added 2 more setup screens - total of 4.
+
+changeset:   103:dc23ea537850
+user:        jon drummond
+date:        Wed Jun 15 14:17:06 2011 +1000
+summary:     Added closing jpegs and updated closing map.
+
+changeset:   102:96f901cd202a
+user:        jon drummond
+date:        Wed Jun 15 13:13:58 2011 +1000
+summary:     Prompt jpgs updated. Component flow of Section3A and Section3B changed in austalk.sql
+
+changeset:   101:4567f3206a9f
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Wed Jun 15 12:26:01 2011 +1000
+summary:     Use default.jpg in each prompts folder as the opening
+
+changeset:   100:1cb72f21993d
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Wed Jun 15 11:55:58 2011 +1000
+summary:     Modify behaviour on Finalise Session so that it re-starts
+
+changeset:   99:8f785de81ea8
+user:        jon drummond
+date:        Tue Jun 14 16:46:53 2011 +1000
+summary:     Added 3 folders of words (sessions 1-3). Not using word map files.
+
+changeset:   98:fa9ce3c640b9
+user:        jon drummond
+date:        Tue Jun 14 11:07:46 2011 +1000
+summary:     Updated "opening" jpegs and map files. Added "calibration" prompts to sql maps and folders.
+
+changeset:   97:6fb687c320fa
+user:        jon drummond
+date:        Sat Jun 11 23:01:14 2011 +1000
+summary:     Added 2 "Setup Confimation" screens that show at start. firstLayout --> secondLayout --> initialLayout.
+
+changeset:   96:791d44647af7
+user:        jon drummond
+date:        Sat Jun 11 10:11:54 2011 +1000
+summary:     Swapped record state colours. Red = Recording. Green = Paused.
+
+changeset:   95:3b91ea31c127
+user:        steve
+date:        Thu Jun 09 17:37:43 2011 +1000
+summary:     Catch application close and ensure recording is stopped and everything is cleaned up properly.
+
+changeset:   94:ba0585e9dc83
+user:        jon drummond
+date:        Wed Jun 08 10:18:15 2011 +1000
+summary:     Changed welcome text to logo image on speaker's screen.
+
+changeset:   93:09785d90b24d
+user:        steve
+date:        Tue May 31 07:51:52 2011 +1000
+summary:     Working version of the MapTask layout including speaker, role and map selection. Created and cleaned up so that normal next/prev controls work ok.  No metadata being written yet.
+
+changeset:   92:dba75738192d
+user:        steve
+date:        Mon May 30 16:04:19 2011 +1000
+summary:     Working maptask data input display but not connected to anything and not cleaning up after itself. Need to refactor the display so I can replace the prompt more cleanly.
+
+changeset:   91:2383343bf4ff
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed May 25 15:21:40 2011 +1000
+summary:     Slightly different timer display, show session time on the left,
+
+changeset:   90:4128a05ddc32
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed May 25 10:20:19 2011 +1000
+summary:     initialise component timer to zero when we start
+
+changeset:   89:9133aea17de3
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed May 25 09:15:57 2011 +1000
+summary:     Changed the timer so that the planned time shown is per component and the
+
+changeset:   88:beb14c4752a9
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed May 25 08:36:47 2011 +1000
+summary:     Refactor participant chooser to a control so we can re-use it in the map task
+
+changeset:   87:121f56cee432
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon May 23 09:27:23 2011 +1000
+summary:     initial sketch for finalisation layout
+
+changeset:   86:dffd1da1c550
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri May 20 09:24:23 2011 +1000
+summary:     ensure items taken from directory are in order by filename
+
+changeset:   85:814c2e9af865
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri May 20 09:21:46 2011 +1000
+summary:     Enable reading items from a directory of jpg images rather than a map file.
+
+changeset:   84:1f1b579a3f25
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Thu May 19 22:27:51 2011 +1000
+summary:     Added 'syncprompts' option for components to control whether prompts are synchronised
+
+changeset:   83:de2f5ec8bd2c
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed May 18 17:11:53 2011 +1000
+summary:     duplicate map task component for other speaker, change order of session 3B
+
+changeset:   82:f3968dcecf63
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed May 18 13:09:51 2011 +1000
+summary:     Removed test session.
+
+changeset:   81:15ce7b630a94
+user:        thierry
+date:        Tue May 10 19:51:24 2011 +1000
+summary:     * The current prompt now stays on the screen when the recording is paused (it was updated to display the component's name before).
+
+changeset:   80:f2031a6f2172
+user:        thierry
+date:        Thu May 05 13:17:18 2011 +1000
+summary:     Activated finilisation prevention is session is not completed
+
+changeset:   79:d217a0ab8cad
+user:        thierry
+date:        Thu May 05 13:01:49 2011 +1000
+summary:     Made prompts synchronised at all times between RA and Speaker
+
+changeset:   78:586234454b2a
+user:        thierry
+date:        Thu May 05 12:39:07 2011 +1000
+summary:     Skipping to Init screen when session is done
+
+changeset:   77:a5e791fe20f4
+user:        thierry
+date:        Tue May 03 19:39:34 2011 +1000
+summary:     Fixed opening prompt
+
+changeset:   76:087b08d72d0e
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Thu Apr 21 11:23:22 2011 +1000
+summary:     Added todo
+
+changeset:   75:1704ed4a6475
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Thu Apr 21 11:23:04 2011 +1000
+summary:     Fixed Speaker display on wrong screen
+
+changeset:   74:e51a7c7713b5
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Apr 20 21:27:51 2011 +1000
+summary:     re-instate full screen speaker window (removed for testing)
+
+changeset:   73:cb0b86f3808f
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Wed Apr 20 21:27:04 2011 +1000
+summary:     added test session with shorter lists for testing
+
+changeset:   72:49ff6f1a1716
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Apr 19 17:56:55 2011 +1000
+summary:     Changed the actions on buttons and the way that 'next action' is processed. Put the logic into Protocol. Made the Start button change to Pause while recording. Change Stop to Done since it also starts the next recording.
+
+changeset:   71:b6fe33246107
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Apr 19 11:21:01 2011 +1000
+summary:     added tasks
+
+changeset:   70:56d45ba1c93c
+parent:      69:10ae694e5396
+parent:      65:8505b094cd60
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Apr 19 09:43:21 2011 +1000
+summary:     merge in changes
+
+changeset:   69:10ae694e5396
+parent:      68:30f9c5ea12f0
+parent:      52:26cad7357668
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Apr 12 08:45:05 2011 -0400
+summary:     merge
+
+changeset:   68:30f9c5ea12f0
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Tue Apr 12 08:44:44 2011 -0400
+summary:     correct typo
+
+changeset:   67:4afb63bbae01
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Apr 11 20:56:18 2011 -0400
+summary:     fix extra Const. in Frame.py
+
+changeset:   66:741432aba3d4
+parent:      50:16344ac17242
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Apr 11 03:11:02 2011 -0700
+summary:     move database init code into Persistance
+
+changeset:   65:8505b094cd60
+user:        thierry
+date:        Thu Apr 14 01:22:11 2011 +1000
+summary:     Added more todo items
+
+changeset:   64:c737ce34059e
+user:        thierry
+date:        Thu Apr 14 01:20:51 2011 +1000
+summary:     Added todo items
+
+changeset:   63:dad038c212f9
+user:        thierry
+date:        Thu Apr 14 01:08:05 2011 +1000
+summary:     Added Item X of Y functionality
+
+changeset:   62:abfb4b6d9e80
+user:        thierry
+date:        Thu Apr 14 00:55:08 2011 +1000
+summary:     Fixed session timer
+
+changeset:   61:c33735de82a1
+user:        thierry
+date:        Thu Apr 14 00:54:36 2011 +1000
+summary:     Create database if does not exist
+
+changeset:   60:7775082859a1
+user:        thierry
+date:        Wed Apr 13 19:30:39 2011 +1000
+summary:     Made RAFrame full screen
+
+changeset:   59:904be929e31a
+user:        thierry
+date:        Tue Apr 12 22:05:16 2011 +1000
+summary:     Added call to backend Calibrate method
+
+changeset:   58:6485e0c49152
+user:        thierry
+date:        Tue Apr 12 21:42:35 2011 +1000
+summary:     Added todo (use friendly file names)
+
+changeset:   57:7211f03f4c0b
+user:        thierry
+date:        Tue Apr 12 21:37:36 2011 +1000
+summary:     Added todo list
+
+changeset:   56:1b1f6134e7e0
+user:        thierry
+date:        Tue Apr 12 21:18:04 2011 +1000
+summary:     Updated RAFrame SetPromptImage to rescale the prompt to the available space
+
+changeset:   55:ebd1b552bf68
+user:        thierry
+date:        Tue Apr 12 21:17:00 2011 +1000
+summary:     Updated Protocol to destroy instance of Backend when required
+
+changeset:   54:15650a7ef17d
+user:        thierry
+date:        Tue Apr 12 21:15:24 2011 +1000
+summary:     Updated Backend interface documentation
+
+changeset:   53:146d9ff60b4e
+user:        thierry
+date:        Tue Apr 12 21:14:53 2011 +1000
+summary:     Updated calibration and closing names
+
+changeset:   52:26cad7357668
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Tue Apr 12 16:31:48 2011 +1000
+summary:     Redefined backend interface
+
+changeset:   51:bfad400e8e0f
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Tue Apr 12 16:31:22 2011 +1000
+summary:     Removed ra prompt that was masking controls
+
+changeset:   50:16344ac17242
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Sun Apr 10 18:38:18 2011 -0700
+summary:     Added __init__.py for extra module, call db init before loading other modules
+
+changeset:   49:ac5fede53a5e
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 17:52:27 2011 +1000
+summary:     Added Readme file.
+
+changeset:   48:5f492df33cb5
+user:        thierry
+date:        Fri Apr 08 17:47:07 2011 +1000
+summary:     Centering speaker prompt on screen
+
+changeset:   47:3d3cdfe81fc3
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 17:30:37 2011 +1000
+summary:     restore initial screen
+
+changeset:   46:1c04226ea3d7
+user:        thierry
+date:        Fri Apr 08 17:20:35 2011 +1000
+summary:     Windows adaptations
+
+changeset:   45:b0ec30ec8984
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 16:57:50 2011 +1000
+summary:     add init file for gui module
+
+changeset:   44:dc128d9ab97c
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 16:54:02 2011 +1000
+summary:     moved python files into a module
+
+changeset:   43:bb7742d6232f
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 16:30:59 2011 +1000
+summary:     added shell for backend code, calls from protocol
+
+changeset:   42:9e8c27c7ebfd
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 15:51:24 2011 +1000
+summary:     changes to get things going
+
+changeset:   41:cfb660fb1f1e
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 15:05:12 2011 +1000
+summary:     working through one component
+
+changeset:   40:a600a52fe9f5
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 10:36:07 2011 +1000
+summary:     Fix observers and event handlers, now working
+
+changeset:   39:896ad2d64608
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 08 08:22:33 2011 +1000
+summary:     Fixing up bindings
+
+changeset:   38:8a451e89014b
+user:        thierry
+date:        Wed Apr 06 17:20:50 2011 +1000
+summary:     Layout is updated only when component changes
+
+changeset:   37:1e081994fc16
+user:        thierry
+date:        Wed Apr 06 17:13:23 2011 +1000
+summary:     Finalised protocol (alpha version)
+
+changeset:   36:b6ba6440e2ab
+user:        thierry
+date:        Wed Apr 06 17:12:15 2011 +1000
+summary:     Added welcome and goodbye prompts
+
+changeset:   35:5b950853168b
+user:        thierry
+date:        Wed Apr 06 17:09:59 2011 +1000
+summary:     Made the way path are retrieved consistent
+
+changeset:   34:8e2bc42d4a21
+user:        thierry
+date:        Wed Apr 06 17:09:00 2011 +1000
+summary:     Added more constants
+
+changeset:   33:921526bd0b84
+user:        thierry
+date:        Wed Apr 06 17:08:44 2011 +1000
+summary:     Added recordings directory
+
+changeset:   32:f234d2924937
+parent:      31:bdaa8694521d
+parent:      30:e951f5a007e4
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Wed Apr 06 15:41:32 2011 +1000
+summary:     merge
+
+changeset:   31:bdaa8694521d
+parent:      27:0bb5f9746177
+user:        bigASC Admin@bigASCAdmin-PC.uws.edu.au
+date:        Wed Apr 06 15:36:02 2011 +1000
+summary:     Updated backend test script
+
+changeset:   30:e951f5a007e4
+user:        thierry
+date:        Wed Apr 06 14:59:08 2011 +1000
+summary:     Added map files for calibration/closing
+
+changeset:   29:54a6ff263e4a
+user:        thierry
+date:        Wed Apr 06 14:58:06 2011 +1000
+summary:     Fixed issues in Persistence
+
+changeset:   28:7e96192c37b3
+user:        thierry
+date:        Wed Apr 06 14:56:40 2011 +1000
+summary:     Fixed undefined method
+
+changeset:   27:0bb5f9746177
+user:        Steve Cassidy
+date:        Wed Apr 06 13:05:44 2011 +1000
+summary:     use constant layout names and don't rebuild main layout every time
+
+changeset:   26:033b066c0511
+user:        Steve Cassidy
+date:        Wed Apr 06 12:49:20 2011 +1000
+summary:     added Tree* methods to fill out component/item display
+
+changeset:   25:ad958d04f535
+user:        Steve Cassidy
+date:        Wed Apr 06 10:59:26 2011 +1000
+summary:     revert to python2.6 compatible code in Persistence.py
+
+changeset:   24:20b60c982db1
+user:        thierry
+date:        Tue Apr 05 21:35:43 2011 +1000
+summary:     Deleted utils module
+
+changeset:   23:b89dfb4541f1
+user:        thierry
+date:        Tue Apr 05 21:35:26 2011 +1000
+summary:     Refactored classes and separated responsibilites between protocol controller, domain objects and persistence layer
+
+changeset:   22:a0dcfebd9493
+user:        thierry
+date:        Tue Apr 05 21:33:22 2011 +1000
+summary:     Changed metadata table
+
+changeset:   21:0c8eb04ed435
+user:        thierry
+date:        Tue Apr 05 21:32:22 2011 +1000
+summary:     Added new constants
+
+changeset:   20:b82a0a997951
+parent:      19:b666aa71106f
+parent:      18:1308e613ecd8
+user:        thierry
+date:        Tue Apr 05 14:48:15 2011 +1000
+summary:     Merged frame changes
+
+changeset:   19:b666aa71106f
+parent:      16:434f7bdab507
+user:        thierry
+date:        Tue Apr 05 01:18:14 2011 +1000
+summary:     Reorganised items to use mapping files
+
+changeset:   18:1308e613ecd8
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Apr 04 18:22:48 2011 +1000
+summary:     test button press event handler that cycles between layouts
+
+changeset:   17:3435c739370b
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Mon Apr 04 17:51:38 2011 +1000
+summary:     Added SSCPApp as main entry point,
+
+changeset:   16:434f7bdab507
+user:        thierry
+date:        Mon Apr 04 14:44:52 2011 +1000
+summary:     Fixed variable name
+
+changeset:   15:d38c30b525c0
+user:        thierry
+date:        Mon Apr 04 14:43:10 2011 +1000
+summary:     Renamed Event to Const and added new constants
+
+changeset:   14:7a3d61e2ce86
+user:        thierry
+date:        Mon Apr 04 14:30:17 2011 +1000
+summary:     Normalised prompt names
+
+changeset:   13:dd12ad3d756e
+user:        thierry
+date:        Mon Apr 04 13:43:33 2011 +1000
+summary:     Removed speaker directory
+
+changeset:   12:ae666da6487c
+user:        thierry
+date:        Mon Apr 04 13:43:00 2011 +1000
+summary:     Updated database structure
+
+changeset:   11:d2fc964e0926
+user:        thierry
+date:        Mon Apr 04 13:41:48 2011 +1000
+summary:     Added prompts
+
+changeset:   10:815865d48d1a
+user:        thierry
+date:        Mon Apr 04 13:20:34 2011 +1000
+summary:     Changed Observer methods signatures
+
+changeset:   9:b397056ccd1d
+user:        thierry
+date:        Mon Apr 04 13:14:25 2011 +1000
+summary:     Normalised Notify and Listen methods
+
+changeset:   8:78167713561a
+user:        thierry
+date:        Mon Apr 04 13:09:21 2011 +1000
+summary:     Added Event class to share event names between protocol and frames
+
+changeset:   7:194c5c8d4921
+user:        thierry
+date:        Mon Apr 04 12:39:13 2011 +1000
+summary:     Moved some methods from  Protocol
+
+changeset:   6:b1fe59f6b45e
+user:        Steve Cassidy <steve.cassidy@mq.edu.au>
+date:        Fri Apr 01 16:54:44 2011 +1100
+summary:     notes on Frame implementation
+
+changeset:   5:a34981b03a69
+user:        thierry
+date:        Fri Apr 01 14:32:51 2011 +1100
+summary:     Added Backend dummy interface
+
+changeset:   4:365704339e32
+user:        thierry
+date:        Fri Apr 01 14:32:05 2011 +1100
+summary:     Added observer pattern to register listeners and notify them of GUI events
+
+changeset:   3:43218c66fef1
+user:        thierry
+date:        Fri Apr 01 14:28:11 2011 +1100
+summary:     Removed Backend class
+
+changeset:   2:e259d3de2f0c
+user:        thierry
+date:        Fri Apr 01 14:25:39 2011 +1100
+summary:     Added draft of protocol into sql file
+
+changeset:   1:417743f28382
+user:        thierry
+date:        Fri Apr 01 14:14:29 2011 +1100
+summary:     Cleaned up repository
+
+changeset:   0:dc6ce76854cb
+user:        thierry
+date:        Tue Mar 29 18:12:02 2011 +1100
+summary:     Initial Import
+
