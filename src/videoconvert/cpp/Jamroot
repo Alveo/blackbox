@@ -1,0 +1,45 @@
+# Copyright David Abrahams 2006. Distributed under the Boost
+# Software License, Version 1.0. (See accompanying
+# file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+ 
+using python ;
+ 
+lib flycapture1 
+	: # sources
+	: <file>"c:/Program Files/Point Grey Research/PGR Flycapture/lib64/PGRFlyCapture.lib" 
+	: # default build
+	: <include>"c:/Program Files/Point Grey Research/PGR Flycapture/include" ;
+
+lib flycapture2
+	: # sources
+	: <file>"c:/Program Files/Point Grey Research/Flycapture2/lib64/Flycapture2.lib"
+	: # default build
+	: <include>"c:/Program Files/Point Grey Research/Flycapture2/include" ;
+
+lib triclops
+    : # sources
+	: <file>"c:/Program Files/Point Grey Research/Triclops Stereo Vision SDK/lib64/triclops.lib"
+	: # default build
+	: <include>"c:/Program Files/Point Grey Research/Triclops Stereo Vision SDK/include" ;
+
+# not sure if these are needed (part of triclops)
+lib pnmutils ;
+lib pnmutilsd ;
+	
+project
+  : requirements 
+     <library>flycapture1
+	 <library>flycapture2
+	 <library>triclops
+	 <define>BOOST_PYTHON_STATIC_LIB 
+	 <include>D:/boost_1_47_0/ 
+	 <library-path>D:/boost_1_47_0/stage64/lib
+	 ;
+
+# Declare the extension modules.  You can specify multiple
+# source files after the colon separated by spaces.
+python-extension RawToAvi : RawToAvi.cpp Raw16Converter.cpp  Rectification.cpp ;
+
+
+# install the resulting extension in the parent directory
+install dist : RawToAvi : <location>.. ;

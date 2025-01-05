@@ -1,0 +1,59 @@
+# Copyright David Abrahams 2006. Distributed under the Boost
+# Software License, Version 1.0. (See accompanying
+# file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+ 
+using python ;
+
+lib flycapture2
+	: # sources
+	: <file>"c:/Program Files/Point Grey Research/Flycapture2/lib64/Flycapture2.lib"
+	  <file>"c:/Program Files/Point Grey Research/Flycapture2/lib64/Flycapture2GUI.lib"
+	: # default build
+	: <include>"c:/Program Files/Point Grey Research/Flycapture2/include" ;
+
+lib portaudio
+	: # sources
+	: <file>"../../../lib/portaudio/portaudio_x64.lib"
+	: # default build
+	: <include>"../../../include/" ;
+
+# opencv is used to generate the video preview window in VideoCapture2.cpp
+lib opencv
+	: # sources
+	: <file>"../../../lib/opencv2.2/Release/opencv_core220.lib"
+	  <file>"../../../lib/opencv2.2/Release/opencv_highgui220.lib"
+	: # default build
+	: <include>"../../../include/" ;
+	
+lib libsndfile
+	: # sources
+	: <file>"../../../lib/sndfile/libsndfile-1.lib"
+	: # default build
+	: <include>"../../../include/" ;
+		
+	
+project
+  : requirements 
+     <library>flycapture2
+	 <library>portaudio
+	 <library>opencv
+	 <library>libsndfile
+	 <define>BOOST_PYTHON_STATIC_LIB 
+	 <include>"C:/Users/cassidy/Software/boost_1_47_0"
+	 <library-path>"C:/Users/cassidy/Software/boost_1_47_0/stage/lib"
+	 ;
+
+# Declare the extension modules.  You can specify multiple
+# source files after the colon separated by spaces.
+python-extension SSCPBackend : 
+		AudioRecord.cpp		
+		SSCPBackend.cpp
+		VideoCapture2.cpp
+		ThreadLockBase.cpp	
+		Utility.cpp
+ 		;
+
+
+# install the resulting extension in the parent directory
+install dist : SSCPBackend : <location>.. ;
+

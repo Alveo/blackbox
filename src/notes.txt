@@ -1,0 +1,140 @@
+Notes on Module Structure
+
+This package needs a bit of re-organisation since we now have two front end
+applications (recording and file copying) and a few utility scripts that
+can run on the server.  Below is a proposed refactoring of the code into
+modules that are less tied to the way the code has evolved.
+
+hardware - the current backend module which is the C++ code to control
+ audio and video recording. Any code that interfaces to hardware on 
+ the Black Box should go in here (eg. getting the calibration file from
+ the cameras).
+ 
+videoconvert - python and C++ code to convert video from the raw format
+ to AVI and compressed MPEG2. This is platform neutral code although it
+ does require the flycapture libraries to do file conversion.
+ 
+recorder - provides the recording interface (GUI) that runs the sessions
+
+copier - provides the interface for copying and compressing files after 
+ a session is complete
+ 
+datahandling - provides python utilities for handling the data and meta
+ data recorded in the session. This module pulls code from the current 
+ gui and copying modules that can be used more generally
+ 
+config - a module providing configuration information for the whole
+ package, currently in gui.Const this would pull it out and perhaps
+ put the config in a .ini file that was more accessible. 
+ 
+ 
+Using Inno Setup to build the installer for the project:
+ http://www.jrsoftware.org/isdl.php
+
+
+BUILDING
+
+<<< NOte these notes are incomplete, I'm trying to document re-building the build
+environment I put together on the BB, in particular the boost stuff doesn't
+seem to be working yet >>>
+
+Windows build makes use of the Visual C++ 2008 tools but the build is driven by the 
+boost bjam command line tool rather than a visual C++ project.
+
+Dependancies
+
+Visual C++ 2008
+Boost version 1.47
+ 
+  You need the 64bit version of the boost libraries and tools which doesn't have a 
+  binary download so it needs to be built from source via the download from:
+  
+  http://www.boost.org/users/history/version_1_47_0.html
+  
+  instructions on building are at:
+  
+  http://www.boost.org/doc/libs/1_47_0/more/getting_started/windows.html#or-build-binaries-from-source
+  
+  I did:
+  
+  cd into tools\build\v2
+  bootstrap.bat
+  .\b2 --prefix=c:\Boost install
+  
+  then add c:\Boost\bin to the system path via the control panel
+  (go into control panel, search for "PATH", choose "Edit the system environment variables" under System)
+  
+  
+  then CD to the root of the boost distribution and
+  
+  b2 --build-dir=boost-build --build-type=complete --address-model=64 msvc stage 
+  
+  note this builds the x64 versions of the libraries, this is important
+  
+  
+  
+Flycapture
+
+  Need to install the flycapture2 library in it's default location
+ 
+ 
+PGRFlycapture
+
+ Need to install the flycapture 1.8 library in it's default location
+ 
+Triclops
+
+ Need to install the triclops library in the default location
+ 
+Other libraries
+
+  Other libraries are needed for the build 
+    opencv2.2
+    portaudio
+    sndfile
+    
+    
+  I don't have locations for these yet, I copied them from Lei's projects
+
+
+Configuration
+
+
+ The build is driven by a file called Jamroot in the videoconvert/cpp and hardware/cpp
+ directories.  Each one is independent but we could probably share stuff between them
+ with a bit of thought.
+ 
+ The jamroot file contains the absolute path names to the include files and libraries
+ needed for the build. This should be the only thing that needs changing to allow
+ a build.   Edit these files and check that the paths are correct for your
+ installation.
+ 
+ One final file that might need editing is boost-build.jam which contains the path
+ to the boost build tools.  Need to experiment to see whether we can do without 
+ this. 
+ 
+Building
+
+ Once everything is set up, you should be able to build each of the python extensions
+ by going into the cpp directory and using the command line:
+ 
+ bjam address-model=64 release
+ 
+ This should compile all the required sources and copy the resulting binaries
+ to the right place in the parent directory.  
+ 
+ The 'release' keyword builds the non debug version of the code, leave it off for 
+ development.  
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+
+
+ 
+ 

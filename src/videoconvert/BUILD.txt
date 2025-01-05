@@ -1,0 +1,23 @@
+BUILDING C++ code
+
+This directory contains a C++ extension to convert raw video to AVI format 
+that makes use of the flycapture2 library.  It uses the Boost python
+library to expose the C++ class to Python and is built using the bjam
+build tool that comes with Boost.  If the flycapture2 libraries 
+are installed, it should be possible to build with just:
+
+$  cd cpp
+$  bjam
+
+the configuration is in cpp/Jamfile.  This should result in the
+shared library being written to RawToAvi.XXX in this directory
+where XXX is .so for Linux and perhaps .pyd for windows (needs
+confirmation).
+
+This was developed on Linux but should be cross platform - needs
+confirmation.
+
+Build on windows:
+
+d:\boost_1_47_0\bjam.exe address-model=64
+

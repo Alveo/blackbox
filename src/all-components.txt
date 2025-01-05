@@ -1,0 +1,1460 @@
+Session 1
+	Component:  Calibration (11)
+		Item: 11_001 - Turn right 90  (face right wall)  2
+		Item: 11_002 - Turn left 15  (face -75)  3
+		Item: 11_003 - Turn left 15  (face -60)  4
+		Item: 11_004 - Turn left 15  (face -45)  5
+		Item: 11_005 - Turn left 15  (face -30)  6
+		Item: 11_006 - Turn left 15  (face -15)  7
+		Item: 11_007 - Turn left 15   (face the camera)  8
+		Item: 11_008 - Turn left 15  (face +15)  9
+		Item: 11_009 - Turn left 15  (face +30)  10
+		Item: 11_010 - Turn left 15  (face +45)  11
+		Item: 11_011 - Turn left 15  (face +60)  12
+		Item: 11_012 - Turn left 15  (face +75)  13
+		Item: 11_013 - Turn left 15   (face the left wall)  14
+		Item: 11_014 - Turn right 90  (face the camera)  15
+		Item: 11_015 - ee        ah       or       oo (for 10 seconds) 16
+		Item: 11_016 - bee     bah     boar      boo     ( for 10 seconds) 17
+	Component:  Yes/No Opening (1)
+		Item: 1_001 - So lets see, for the record, you are [ANIMAL NAME] , right? 2
+		Item: 1_002 - 2) And is this your first recording session for the project? 3
+		Item: 1_003 - 3) Is there anything unclear with the instructions so far? 4
+		Item: 1_004 - 4) Would you like me to explain the process again? 5
+		Item: 1_005 - 5) Do you have any questions about what you need to do? 6
+		Item: 1_006 - 6) Can you see the screen? 7
+		Item: 1_007 - 7) Are you comfortable with the position of the chair and the microphone? 8
+		Item: 1_008 - 8 ) Shall we start then? 9
+	Component:  Words - Session 1 (v2) (43)
+		Item: 43_001 - bassinette
+		Item: 43_002 - hun sounds like fun
+		Item: 43_003 - fatigue
+		Item: 43_004 - syrup
+		Item: 43_005 - hoot
+		Item: 43_006 - pet
+		Item: 43_007 - shore
+		Item: 43_008 - hone sounds like bone
+		Item: 43_009 - ballot
+		Item: 43_010 - drawing
+		Item: 43_011 - closet
+		Item: 43_012 - paddle
+		Item: 43_013 - chicken
+		Item: 43_014 - height
+		Item: 43_015 - caterpillar
+		Item: 43_016 - Australia
+		Item: 43_017 - pat
+		Item: 43_018 - strew
+		Item: 43_019 - evaporate
+		Item: 43_020 - bend
+		Item: 43_021 - wholl
+		Item: 43_022 - Nigel
+		Item: 43_023 - stew
+		Item: 43_024 - porcupine
+		Item: 43_025 - horde
+		Item: 43_026 - Ninjas
+		Item: 43_027 - Ellen
+		Item: 43_028 - harn sounds like barn
+		Item: 43_029 - tangerine
+		Item: 43_030 - ran
+		Item: 43_031 - pyjamas
+		Item: 43_032 - hut
+		Item: 43_033 - guitar
+		Item: 43_034 - head
+		Item: 43_035 - anatomy
+		Item: 43_036 - apple
+		Item: 43_037 - pad
+		Item: 43_038 - aluminium
+		Item: 43_039 - Paris
+		Item: 43_040 - pillow
+		Item: 43_041 - you
+		Item: 43_042 - pull
+		Item: 43_043 - cold
+		Item: 43_044 - mallow
+		Item: 43_045 - cube
+		Item: 43_046 - imagine
+		Item: 43_047 - gavel
+		Item: 43_048 - true
+		Item: 43_049 - gallop
+		Item: 43_050 - epilepsy
+		Item: 43_051 - album
+		Item: 43_052 - million
+		Item: 43_053 - leaf
+		Item: 43_054 - h arl sounds like Carl
+		Item: 43_055 - due
+		Item: 43_056 - Shaw
+		Item: 43_057 - hurl
+		Item: 43_058 - had
+		Item: 43_059 - giant
+		Item: 43_060 - band
+		Item: 43_061 - elbow
+		Item: 43_062 - palace
+		Item: 43_063 - banner
+		Item: 43_064 - vegemite
+		Item: 43_065 - satchel
+		Item: 43_066 - bad
+		Item: 43_067 - puffin
+		Item: 43_068 - hade sounds like made
+		Item: 43_069 - parrot
+		Item: 43_070 - howl
+		Item: 43_071 - mirror
+		Item: 43_072 - rude
+		Item: 43_073 - heen sounds like keen
+		Item: 43_074 - saw
+		Item: 43_075 - hud sounds like mud
+		Item: 43_076 - influenza
+		Item: 43_077 - how
+		Item: 43_078 - pour
+		Item: 43_079 - delete
+		Item: 43_080 - relish
+		Item: 43_081 - Al
+		Item: 43_082 - epidemic
+		Item: 43_083 - hurrah
+		Item: 43_084 - museum
+		Item: 43_085 - mills
+		Item: 43_086 - only
+		Item: 43_087 - hoin sounds like coin
+		Item: 43_088 - flounder
+		Item: 43_089 - sure
+		Item: 43_090 - tackle
+		Item: 43_091 - hill
+		Item: 43_092 - hard
+		Item: 43_093 - sawing
+		Item: 43_094 - heared sounds like beard
+		Item: 43_095 - threw
+		Item: 43_096 - paranoia
+		Item: 43_097 - coal
+		Item: 43_098 - constellation
+		Item: 43_099 - hoy sounds like boy
+		Item: 43_100 - sore
+		Item: 43_101 - dormitory
+		Item: 43_102 - hode sounds like mode
+		Item: 43_103 - shrew
+		Item: 43_104 - butler
+		Item: 43_105 - lonely
+		Item: 43_106 - hoott sounds like foot
+		Item: 43_107 - wagon
+		Item: 43_108 - shudder
+		Item: 43_109 - Elle
+		Item: 43_110 - roar
+		Item: 43_111 - tiger
+		Item: 43_112 - dole
+		Item: 43_113 - view
+		Item: 43_114 - han sounds like pan
+		Item: 43_115 - tomato
+		Item: 43_116 - pend sounds like bend
+		Item: 43_117 - dance
+		Item: 43_118 - pills
+		Item: 43_119 - plant
+		Item: 43_120 - hah
+		Item: 43_121 - cult
+		Item: 43_122 - pen
+		Item: 43_123 - kitchen
+		Item: 43_124 - oven
+		Item: 43_125 - barrack
+		Item: 43_126 - tore
+		Item: 43_127 - balcony
+		Item: 43_128 - heat
+		Item: 43_129 - alfalfa
+		Item: 43_130 - hane sounds like cane
+		Item: 43_131 - pill
+		Item: 43_132 - hoon sounds like moon
+		Item: 43_133 - slowly
+		Item: 43_134 - facial
+		Item: 43_135 - heed
+		Item: 43_136 - methane
+		Item: 43_137 - diabetes
+		Item: 43_138 - onion
+		Item: 43_139 - hine sounds like pine
+		Item: 43_140 - bazooka
+		Item: 43_141 - taw
+		Item: 43_142 - p ure
+		Item: 43_143 - gazelle
+		Item: 43_144 - hon sounds like con
+		Item: 43_145 - Ben
+		Item: 43_146 - mellow
+		Item: 43_147 - hooll sounds like  full
+		Item: 43_148 - hunger
+		Item: 43_149 - corridor
+		Item: 43_150 - amphibian
+		Item: 43_151 - battle
+		Item: 43_152 - hit
+		Item: 43_153 - poor
+		Item: 43_154 - Alan
+		Item: 43_155 - hide
+		Item: 43_156 - dabble
+		Item: 43_157 - hear
+		Item: 43_158 - hid
+		Item: 43_159 - listen
+		Item: 43_160 - conspicuous
+		Item: 43_161 - war
+		Item: 43_162 - cauliflower
+		Item: 43_163 - hote sounds like wrote
+		Item: 43_164 - bullock
+		Item: 43_165 - helicopter
+		Item: 43_166 - tassel
+		Item: 43_167 - chew
+		Item: 43_168 - hown sounds like town
+		Item: 43_169 - axle
+		Item: 43_170 - gulf
+		Item: 43_171 - hore sounds like sore
+		Item: 43_172 - Col
+		Item: 43_173 - herd
+		Item: 43_174 - curl
+		Item: 43_175 - sheriff
+		Item: 43_176 - hall
+		Item: 43_177 - slow
+		Item: 43_178 - alien
+		Item: 43_179 - vision
+		Item: 43_180 - colt
+		Item: 43_181 - heathen
+		Item: 43_182 - alligator
+		Item: 43_183 - hoe
+		Item: 43_184 - manufacture
+		Item: 43_185 - carriage
+		Item: 43_186 - miller
+		Item: 43_187 - horn
+		Item: 43_188 - recipe
+		Item: 43_189 - silhouette
+		Item: 43_190 - macaroni
+		Item: 43_191 - hot
+		Item: 43_192 - masquerade
+		Item: 43_193 - kazoo
+		Item: 43_194 - June
+		Item: 43_195 - holl sounds like doll
+		Item: 43_196 - triumph
+		Item: 43_197 - heel
+		Item: 43_198 - heart
+		Item: 43_199 - pant
+		Item: 43_200 - het sounds like bet
+		Item: 43_201 - pan
+		Item: 43_202 - poodle
+		Item: 43_203 - hunter
+		Item: 43_204 - lore
+		Item: 43_205 - bed
+		Item: 43_206 - Wran
+		Item: 43_207 - tuner
+		Item: 43_208 - law
+		Item: 43_209 - then
+		Item: 43_210 - mill
+		Item: 43_211 - new
+		Item: 43_212 - scorpio
+		Item: 43_213 - sterile
+		Item: 43_214 - Melbourne
+		Item: 43_215 - methyl
+		Item: 43_216 - abandon
+		Item: 43_217 - howd sounds like crowd
+		Item: 43_218 - vaccine
+		Item: 43_219 - whod
+		Item: 43_220 - ped
+		Item: 43_221 - hail
+		Item: 43_222 - pole
+		Item: 43_223 - lure
+		Item: 43_224 - wren
+		Item: 43_225 - alibi
+		Item: 43_226 - bant
+		Item: 43_227 - serenade
+		Item: 43_228 - melancholy
+		Item: 43_229 - hort sounds like port
+		Item: 43_230 - tour
+		Item: 43_231 - kangaroo
+		Item: 43_232 - pand
+		Item: 43_233 - do
+		Item: 43_234 - hull sounds like dull
+		Item: 43_235 - bet
+		Item: 43_236 - haggle
+		Item: 43_237 - Polish
+		Item: 43_238 - her
+		Item: 43_239 - adjust
+		Item: 43_240 - souvenir
+		Item: 43_241 - own
+		Item: 43_242 - coyote
+		Item: 43_243 - pent
+		Item: 43_244 - draw
+		Item: 43_245 - carol
+		Item: 43_246 - tune
+		Item: 43_247 - paw
+		Item: 43_248 - girl
+		Item: 43_249 - roses
+		Item: 43_250 - parish
+		Item: 43_251 - pool
+		Item: 43_252 - roaring
+		Item: 43_253 - happen
+		Item: 43_254 - doll
+		Item: 43_255 - mascara
+		Item: 43_256 - noose
+		Item: 43_257 - bat
+		Item: 43_258 - feel
+		Item: 43_259 - hate
+		Item: 43_260 - spider
+		Item: 43_261 - pyramid
+		Item: 43_262 - button
+		Item: 43_263 - drew
+		Item: 43_264 - banish
+		Item: 43_265 - shutter
+		Item: 43_266 - hole
+		Item: 43_267 - raw
+		Item: 43_268 - curriculum
+		Item: 43_269 - voodoo
+		Item: 43_270 - he
+		Item: 43_271 - anaemia
+		Item: 43_272 - cousin
+		Item: 43_273 - hile sounds like tile
+		Item: 43_274 - polish
+		Item: 43_275 - hurn sounds like burn
+		Item: 43_276 - golf
+		Item: 43_277 - Halloween
+		Item: 43_278 - Ethan
+		Item: 43_279 - Mel
+		Item: 43_280 - hoyd sounds like Boyd
+		Item: 43_281 - hat
+		Item: 43_282 - alimony
+		Item: 43_283 - who
+		Item: 43_284 - hell
+		Item: 43_285 - adapt
+		Item: 43_286 - haired sounds like scared
+		Item: 43_287 - school
+		Item: 43_288 - sudden
+		Item: 43_289 - hair
+		Item: 43_290 - pew
+		Item: 43_291 - fashion
+		Item: 43_292 - hoil sounds like boil
+		Item: 43_293 - comply
+		Item: 43_294 - pillar
+		Item: 43_295 - Malcolm
+		Item: 43_296 - hoit
+		Item: 43_297 - tuna
+		Item: 43_298 - hay
+		Item: 43_299 - thunder
+		Item: 43_300 - hood
+		Item: 43_301 - bent
+		Item: 43_302 - hin sounds like tin
+		Item: 43_303 - than
+		Item: 43_304 - hi
+		Item: 43_305 - Rosas
+		Item: 43_306 - hod sounds like pod
+		Item: 43_307 - avocado
+		Item: 43_308 - howt sounds like shout
+		Item: 43_309 - cabin
+		Item: 43_310 - raffle
+		Item: 43_311 - ban
+		Item: 43_312 - Hal
+		Item: 43_313 - dew
+		Item: 43_314 - panel
+		Item: 43_315 - lighthouse
+		Item: 43_316 - hen
+		Item: 43_317 - hurt
+		Item: 43_318 - pillion
+		Item: 43_319 - to
+		Item: 43_320 - Mal
+		Item: 43_321 - camel
+		Item: 43_322 - hinges
+	Component:  Story (3)
+		Item: 3_001 - Once upon a time, there was a young rat named Arthur who couldn't make up his mind. Whenever the other rats asked him if he would like to go out hunting with them, he would answer in a soft voice, "I don't know." And when they said, "Would you rather stay inside?" he wouldn't say yes or no either. He'd always avoid making a choice.    2
+		Item: 3_002 - One fine day, his aunt Zelda appealed to him, "Now look here! No one is going to care about you if you carry on like this. You have no more mind of your own than a greasy old blade of grass!" Arthur coughed and looked wise as usual, but said nothing. "Don't you think so?" said Zelda, stamping her foot, for she couldn't bear to see the poor little rat so coldblooded. "I don't know," was all he ever answered, and then he'd walk off to think for an hour or more about whether he would stay in his hole in the ground or go up into the loft. 3
+		Item: 3_003 - One night the rats heard a loud noise. They lived in a very dark and dreary old place. The roof let the rain come washing in, making shallow pools on the muddy floor. The beams and rafters were all rotten through, so eventually the whole structure was quite unsafe. At last, one of the joists gave way and the beams fell down. The walls shook and the ceiling collapsed with a loud bang. The rats shrieked and their fur stood on end with fear and horror. "This won't do," said their leader with a scowl. "We can't stay cooped up here any longer." So he sent out scouts to search for a new home.      4
+		Item: 3_004 - A little later on in the evening they came back, having found an old-fashioned barn near a stone house where there would be room, board and food for all of them. There, they saw a kindly mare named Alberta, a cow, and some birds in the garden with an elm tree in the middle. The leader gave the order at once, "Company fall in!". The rats crawled out of their holes right away and the sad mob stood on the floor in a long line . 5
+		Item: 3_005 - Just then, the old rat caught sight of young Arthur. He wasn't in the line, and he wasn't exactly outside it; he stood just nearby, ears pricked. "Come on, get in line!" growled the old rodent unamused. "You are coming too, arent you? "I don't know," said Arthur calmly. "Why, the idea of it! You don't think it's safe here anymore, do you?" "I'm not certain," said Arthur undaunted. "The roof may not fall down yet." "Well," said the old rat, "you would be stupid not to join us." Then he turned to the assembled group and shouted, "Right about face! March!" and the long line marched out of the barn while the young rat watched them.  6
+		Item: 3_006 - "I think I'll go tomorrow," he said to himself, "but then again, perhaps I won't - it's so nice and snug here. I guess I'll go back to my hole under the log for a while before I make up my mind."   7
+		Item: 3_007 - But during the night there was a big crash. Down came beams, rafters, joists  the whole business in a pile of rubble.  Next morning, there was a foggy dew. Some boys and girls ran to the barn and a man in boots came to view the damage. It seemed odd that the old building was not haunted by rats. But at last one of the children happened to nudge a board and he saw a puny rat, quite dead, tail half in and half out of his hole. Thus the coward got his due, and there was no mourning for him . 8
+		Item: 3_008 - The End 9
+	Component:  Re-told Story (4)
+		Item: 4_001 - Re-told Story 2
+	Component:  Digits (5)
+		Item: 5_001 - 0123:zero one two three
+		Item: 5_002 - 942o: nine four two oh
+		Item: 5_003 - 6785: six seven eight five
+		Item: 5_004 - 1230: one two three zero
+		Item: 5_005 - 7856: seven eight five six
+		Item: 5_006 - 2o94: two oh nine four
+		Item: 5_007 - 2301: two three zero one
+		Item: 5_008 - 49o2: four nine oh two
+		Item: 5_009 - 8567: eight five six seven
+		Item: 5_010 - 3012: three zero one two
+		Item: 5_011 - 5678: five six seven eight
+		Item: 5_012 - o429 : oh four two nine
+	Component:  Yes/No Closing (9)
+		Item: 9_001 - 9) Ok. Thats it now, thanks.  Are you tired? 2
+		Item: 9_002 - 10) Did you feel nervous during the recording? 3
+		Item: 9_003 - 11) Do you have a busy day after this? 4
+		Item: 9_004 - 12) Does it take you long to get out here? 5
+Session 2
+	Component:  Yes/No Opening (21)
+		Item: 21_001 - So lets see, for the record, you are [ANIMAL NAME] , right? 2
+		Item: 21_002 - 2) And is this your second recording session for the project? 3
+		Item: 21_003 - 3) Is there anything unclear with the instructions so far? 4
+		Item: 21_004 - 4) Would you like me to explain the process again? 5
+		Item: 21_005 - 5) Do you have any questions about the task? 6
+		Item: 21_006 - 6) Can you see the screen? 7
+		Item: 21_007 - 7) Are you comfortable with the position of the chair and the microphone? 8
+		Item: 21_008 - 8 ) Shall we start then? 9
+	Component:  Words - Session 2 (v2) (23)
+		Item: 23_001 - Alan
+		Item: 23_002 - butler
+		Item: 23_003 - view
+		Item: 23_004 - camel
+		Item: 23_005 - June
+		Item: 23_006 - anatomy
+		Item: 23_007 - gallop
+		Item: 23_008 - shrew
+		Item: 23_009 - lighthouse
+		Item: 23_010 - tiger
+		Item: 23_011 - who
+		Item: 23_012 - pyjamas
+		Item: 23_013 - bet
+		Item: 23_014 - Ellen
+		Item: 23_015 - fatigue
+		Item: 23_016 - pand
+		Item: 23_017 - triumph
+		Item: 23_018 - how
+		Item: 23_019 - apple
+		Item: 23_020 - herd
+		Item: 23_021 - abandon
+		Item: 23_022 - Scorpio
+		Item: 23_023 - hoyd sounds like Boyd
+		Item: 23_024 - heathen
+		Item: 23_025 - polish
+		Item: 23_026 - pure
+		Item: 23_027 - Malcolm
+		Item: 23_028 - howl
+		Item: 23_029 - than
+		Item: 23_030 - Australia
+		Item: 23_031 - delete
+		Item: 23_032 - own
+		Item: 23_033 - barrack
+		Item: 23_034 - dole
+		Item: 23_035 - hoit
+		Item: 23_036 - sure
+		Item: 23_037 - mascara
+		Item: 23_038 - hoe
+		Item: 23_039 - diabetes
+		Item: 23_040 - banish
+		Item: 23_041 - new
+		Item: 23_042 - dabble
+		Item: 23_043 - hin sounds like tin
+		Item: 23_044 - hall
+		Item: 23_045 - satchel
+		Item: 23_046 - axle
+		Item: 23_047 - due
+		Item: 23_048 - han sounds like pan
+		Item: 23_049 - sawing
+		Item: 23_050 - hurn sounds like burn
+		Item: 23_051 - helicopter
+		Item: 23_052 - hoot
+		Item: 23_053 - roaring
+		Item: 23_054 - Ninjas
+		Item: 23_055 - giant
+		Item: 23_056 - draw
+		Item: 23_057 - only
+		Item: 23_058 - balcony
+		Item: 23_059 - hon
+		Item: 23_060 - facial
+		Item: 23_061 - hole
+		Item: 23_062 - hurrah
+		Item: 23_063 - masquerade
+		Item: 23_064 - palace
+		Item: 23_065 - sterile
+		Item: 23_066 - constellation
+		Item: 23_067 - Col
+		Item: 23_068 - conspicuous
+		Item: 23_069 - hurl
+		Item: 23_070 - sheriff
+		Item: 23_071 - war
+		Item: 23_072 - Ben
+		Item: 23_073 - pills
+		Item: 23_074 - strew
+		Item: 23_075 - corridor
+		Item: 23_076 - hun sounds like fun
+		Item: 23_077 - Ethan
+		Item: 23_078 - hurt
+		Item: 23_079 - hah
+		Item: 23_080 - to
+		Item: 23_081 - Halloween
+		Item: 23_082 - shudder
+		Item: 23_083 - button
+		Item: 23_084 - hate
+		Item: 23_085 - tuna
+		Item: 23_086 - curl
+		Item: 23_087 - Elle
+		Item: 23_088 - raw
+		Item: 23_089 - hot
+		Item: 23_090 - avocado
+		Item: 23_091 - feel
+		Item: 23_092 - hort sounds like port
+		Item: 23_093 - pool
+		Item: 23_094 - epidemic
+		Item: 23_095 - hull sounds like dull
+		Item: 23_096 - influenza
+		Item: 23_097 - hi
+		Item: 23_098 - hit
+		Item: 23_099 - alligator
+		Item: 23_100 - heen sounds like keen
+		Item: 23_101 - syrup
+		Item: 23_102 - Polish
+		Item: 23_103 - anaemia
+		Item: 23_104 - hunger
+		Item: 23_105 - spider
+		Item: 23_106 - souvenir
+		Item: 23_107 - heart
+		Item: 23_108 - paranoia
+		Item: 23_109 - amphibian
+		Item: 23_110 - happen
+		Item: 23_111 - onion
+		Item: 23_112 - pyramid
+		Item: 23_113 - adapt
+		Item: 23_114 - roar
+		Item: 23_115 - saw
+		Item: 23_116 - height
+		Item: 23_117 - methane
+		Item: 23_118 - million
+		Item: 23_119 - Nigel
+		Item: 23_120 - cult
+		Item: 23_121 - mellow
+		Item: 23_122 - hunter
+		Item: 23_123 - horde
+		Item: 23_124 - caterpillar
+		Item: 23_125 - h arl sounds like Carl
+		Item: 23_126 - Al
+		Item: 23_127 - museum
+		Item: 23_128 - closet
+		Item: 23_129 - heed
+		Item: 23_130 - wholl
+		Item: 23_131 - silhouette
+		Item: 23_132 - true
+		Item: 23_133 - law
+		Item: 23_134 - head
+		Item: 23_135 - album
+		Item: 23_136 - then
+		Item: 23_137 - hay
+		Item: 23_138 - cousin
+		Item: 23_139 - pull
+		Item: 23_140 - pen
+		Item: 23_141 - hane sounds like cane
+		Item: 23_142 - vision
+		Item: 23_143 - Mel
+		Item: 23_144 - voodoo
+		Item: 23_145 - evaporate
+		Item: 23_146 - hoon sounds like moon
+		Item: 23_147 - pent
+		Item: 23_148 - poodle
+		Item: 23_149 - wren
+		Item: 23_150 - hoott sounds like foot
+		Item: 23_151 - bend
+		Item: 23_152 - carriage
+		Item: 23_153 - pet
+		Item: 23_154 - raffle
+		Item: 23_155 - thunder
+		Item: 23_156 - taw
+		Item: 23_157 - howt sounds like shout
+		Item: 23_158 - pend sounds like bend
+		Item: 23_159 - carol
+		Item: 23_160 - slow
+		Item: 23_161 - het sounds like bet
+		Item: 23_162 - alibi
+		Item: 23_163 - hoin
+		Item: 23_164 - paddle
+		Item: 23_165 - gulf
+		Item: 23_166 - hear
+		Item: 23_167 - band
+		Item: 23_168 - hut
+		Item: 23_169 - doll
+		Item: 23_170 - tangerine
+		Item: 23_171 - bazooka
+		Item: 23_172 - hill
+		Item: 23_173 - curriculum
+		Item: 23_174 - hoil sounds like boil
+		Item: 23_175 - pad
+		Item: 23_176 - hide
+		Item: 23_177 - dormitory
+		Item: 23_178 - imagine
+		Item: 23_179 - had
+		Item: 23_180 - panel
+		Item: 23_181 - hod sounds like pod
+		Item: 23_182 - macaroni
+		Item: 23_183 - sudden
+		Item: 23_184 - hail
+		Item: 23_185 - you
+		Item: 23_186 - hair
+		Item: 23_187 - fashion
+		Item: 23_188 - heel
+		Item: 23_189 - pour
+		Item: 23_190 - hood
+		Item: 23_191 - recipe
+		Item: 23_192 - pant
+		Item: 23_193 - tune
+		Item: 23_194 - school
+		Item: 23_195 - hine sounds like pine
+		Item: 23_196 - ped
+		Item: 23_197 - alimony
+		Item: 23_198 - hone sounds like bone
+		Item: 23_199 - bullock
+		Item: 23_200 - hard
+		Item: 23_201 - coal
+		Item: 23_202 - bat
+		Item: 23_203 - epilepsy
+		Item: 23_204 - horn
+		Item: 23_205 - adjust
+		Item: 23_206 - Wran
+		Item: 23_207 - Paris
+		Item: 23_208 - drawing
+		Item: 23_209 - hat
+		Item: 23_210 - cauliflower
+		Item: 23_211 - Shaw
+		Item: 23_212 - tore
+		Item: 23_213 - hen
+		Item: 23_214 - kangaroo
+		Item: 23_215 - vegemite
+		Item: 23_216 - Hal
+		Item: 23_217 - ban
+		Item: 23_218 - hore sounds like sore
+		Item: 23_219 - gavel
+		Item: 23_220 - stew
+		Item: 23_221 - alien
+		Item: 23_222 - pew
+		Item: 23_223 - kazoo
+		Item: 23_224 - hell
+		Item: 23_225 - bed
+		Item: 23_226 - threw
+		Item: 23_227 - pan
+		Item: 23_228 - pillion
+		Item: 23_229 - hade sounds like made
+		Item: 23_230 - heat
+		Item: 23_231 - Mal
+		Item: 23_232 - kitchen
+		Item: 23_233 - drew
+		Item: 23_234 - slowly
+		Item: 23_235 - hud sounds like mud
+		Item: 23_236 - do
+		Item: 23_237 - pill
+		Item: 23_238 - haggle
+		Item: 23_239 - manufacture
+		Item: 23_240 - ballot
+		Item: 23_241 - elbow
+		Item: 23_242 - girl
+		Item: 23_243 - pat
+		Item: 23_244 - shore
+		Item: 23_245 - plant
+		Item: 23_246 - roses
+		Item: 23_247 - tour
+		Item: 23_248 - Rosas
+		Item: 23_249 - porcupine
+		Item: 23_250 - pillow
+		Item: 23_251 - hoy sounds like boy
+		Item: 23_252 - colt
+		Item: 23_253 - noose
+		Item: 23_254 - melancholy
+		Item: 23_255 - cabin
+		Item: 23_256 - battle
+		Item: 23_257 - harn sounds like barn
+		Item: 23_258 - holl sounds like doll
+		Item: 23_259 - paw
+		Item: 23_260 - serenade
+		Item: 23_261 - cold
+		Item: 23_262 - miller
+		Item: 23_263 - relish
+		Item: 23_264 - bad
+		Item: 23_265 - ran
+		Item: 23_266 - pole
+		Item: 23_267 - howd sounds like crowd
+		Item: 23_268 - mills
+		Item: 23_269 - bant
+		Item: 23_270 - sore
+		Item: 23_271 - mallow
+		Item: 23_272 - puffin
+		Item: 23_273 - pillar
+		Item: 23_274 - aluminium
+		Item: 23_275 - listen
+		Item: 23_276 - lure
+		Item: 23_277 - haired sounds like scared
+		Item: 23_278 - hooll sounds like  full
+		Item: 23_279 - tuner
+		Item: 23_280 - methyl
+		Item: 23_281 - poor
+		Item: 23_282 - hown sounds like town
+		Item: 23_283 - dance
+		Item: 23_284 - comply
+		Item: 23_285 - gazelle
+		Item: 23_286 - bent
+		Item: 23_287 - parish
+		Item: 23_288 - hinges
+		Item: 23_289 - oven
+		Item: 23_290 - mill
+		Item: 23_291 - guitar
+		Item: 23_292 - coyote
+		Item: 23_293 - dew
+		Item: 23_294 - lore
+		Item: 23_295 - hid
+		Item: 23_296 - vaccine
+		Item: 23_297 - banner
+		Item: 23_298 - chicken
+		Item: 23_299 - Melbourne
+		Item: 23_300 - bassinette
+		Item: 23_301 - hile sounds like tile
+		Item: 23_302 - tackle
+		Item: 23_303 - he
+		Item: 23_304 - lonely
+		Item: 23_305 - hote sounds like wrote
+		Item: 23_306 - parrot
+		Item: 23_307 - heared sounds like beard
+		Item: 23_308 - hode 309 sounds like mode
+		Item: 23_309 - tomato
+		Item: 23_310 - whod
+		Item: 23_311 - rude
+		Item: 23_312 - wagon
+		Item: 23_313 - chew
+		Item: 23_314 - her
+		Item: 23_315 - leaf
+		Item: 23_316 - flounder
+		Item: 23_317 - tassel
+		Item: 23_318 - mirror
+		Item: 23_319 - golf
+		Item: 23_320 - cube
+		Item: 23_321 - alfalfa
+		Item: 23_322 - shutter
+	Component:  Interview (7)
+		Item: 7_001 - Interview 2
+	Component:  Digits (5)
+		Item: 5_001 - 0123:zero one two three
+		Item: 5_002 - 942o: nine four two oh
+		Item: 5_003 - 6785: six seven eight five
+		Item: 5_004 - 1230: one two three zero
+		Item: 5_005 - 7856: seven eight five six
+		Item: 5_006 - 2o94: two oh nine four
+		Item: 5_007 - 2301: two three zero one
+		Item: 5_008 - 49o2: four nine oh two
+		Item: 5_009 - 8567: eight five six seven
+		Item: 5_010 - 3012: three zero one two
+		Item: 5_011 - 5678: five six seven eight
+		Item: 5_012 - o429 : oh four two nine
+	Component:  Sentences Session 2 (16)
+		Item: 16_001 - He flew round in an instant to look his attacker square in the eye.
+		Item: 16_002 - The kid gave a long moan when the milk was spilt.
+		Item: 16_003 - The table is badly glued and made so sloppily that it tilts.
+		Item: 16_004 - We're glad that the price range is smaller than any of us expected.
+		Item: 16_005 - The grass was mown before the uncontrollable children came out to play.
+		Item: 16_006 - He hurled several stones from the bridge whilst I quickly ran for cover.
+		Item: 16_007 - Troy flicks through a yuppie magazine when he gets a chance.
+		Item: 16_008 - Thank goodness it's Friday and time to go home!
+		Item: 16_009 - Pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite.
+		Item: 16_010 - Who says itches are always so tempting to scratch?
+		Item: 16_011 - Actually, I'll hedge my bets and take no risks on this flutter.
+		Item: 16_012 - Alan took a ham sandwich to school.
+		Item: 16_013 - The length of her skirt caused the passers-by to glare.
+		Item: 16_014 - I'll thrash out a draft and lodge those new proposals before the next mass meeting.
+		Item: 16_015 - She'll think of an excuse why she overslept if given enough time and space.
+		Item: 16_016 - Helen picked a good spot near the water and spent the morning surfing and relaxing in the sun.
+		Item: 16_017 - Unfortunately, the bath plug is missing so you'll have to take a shower.
+		Item: 16_018 - The group asked if I wanted to come along on the barge trip.
+		Item: 16_019 - You ought to brush your teeth and wash your face before you go to bed.
+		Item: 16_020 - The earth used to be flat, but now it's a sphere ... isn't it?
+		Item: 16_021 - I wish he'd either grow a beard or shave his scruffy moustache.
+		Item: 16_022 - Melvin's cat was slowly rolling the can.
+		Item: 16_023 - Judith found the three manuscripts waiting for her on the piano.
+		Item: 16_024 - The dwarf's throne was in a huge castle encircled by a deep moat.
+		Item: 16_025 - Isn't it odd how cobwebs slowly find their way into every nook and cranny!
+		Item: 16_026 - Mr Boyd says these practical jokes have been taken much too far.
+		Item: 16_027 - I said she couldn't do it but she can.
+		Item: 16_028 - This year I shall paint this room mauve with a splotch of beige dots.
+		Item: 16_029 - It can be quite risky changing gear whilst half way up a steep hill.
+		Item: 16_030 - There'll be big trouble if you dare to touch that stretched surface.
+		Item: 16_031 - Amongst her friends at the Glebe Baths she was considered beautiful.
+		Item: 16_032 - The truth is, I wish I lived a little bit nearer to the supermarket.
+		Item: 16_033 - Don't breathe a word of this, but the topic of Jeff's speech is beginning to annoy me.
+		Item: 16_034 - This new glove and shoe display attracts more customers than ever!
+		Item: 16_035 - We'd be hard pushed for the whole squad to catch the bus to Springwood tonight.
+		Item: 16_036 - The nurse tended the fierce-looking flesh wound on Paul's scalp.
+		Item: 16_037 - Bill could have sat on the train like a zombie but chose to stand.
+		Item: 16_038 - Most of the scenes filmed on location in the Alps were breathtaking.
+		Item: 16_039 - The flag ceremony overwhelmed me and I was moved to tears.
+		Item: 16_040 - Was it the blue globe that broke when he switched on the light?
+		Item: 16_041 - Don't you think her evening gown was a trifle too garish for the occasion?
+		Item: 16_042 - He glimpsed the badge of the traffic cop out of the corner of his eye.
+		Item: 16_043 - He grabbed a towel and then answered the phone by the clock.
+		Item: 16_044 - Sharon vowed never again to sneer at tourists buying souvenir dolls.
+		Item: 16_045 - It seems as if Susan does all the floor cleaning for this frugal household.
+		Item: 16_046 - John could supply him with the latest draft of his work to proof-read.
+		Item: 16_047 - The dear old bishop was thrust into trouble with the self-absorbed mayor.
+		Item: 16_048 - I've just seen that rogue, Charles, tearing off in a hurry to his maths exam.
+		Item: 16_049 - My mother gets cross when they say "yeah" instead of "yes".
+		Item: 16_050 - A squirt of this ointment will soothe the graze on your heel.
+		Item: 16_051 - Isn't it common knowledge that the kangaroo has a pouch in front?
+		Item: 16_052 - Apparently, bulldog terriers yap almost as much as chows.
+		Item: 16_053 - Surely, if you leave the record by the fire it will warp.
+		Item: 16_054 - Enjoying her freedom, Amelia went to the zoo and saw a rare giant sloth.
+		Item: 16_055 - Please, I feel too lethargic to wash up tonight.
+		Item: 16_056 - The plane flew down low over the runway, then increased speed and circled the airfield a second time.
+		Item: 16_057 - After a gaffe like that, it is futile to offer any further resistance, isn't it?
+		Item: 16_058 - The chill wind caused the twins to shiver violently in their threadbare clothes.
+		Item: 16_059 - Sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more.
+	Component:  Yes/No Closing (9)
+		Item: 9_001 - 9) Ok. Thats it now, thanks.  Are you tired? 2
+		Item: 9_002 - 10) Did you feel nervous during the recording? 3
+		Item: 9_003 - 11) Do you have a busy day after this? 4
+		Item: 9_004 - 12) Does it take you long to get out here? 5
+Session 3.1
+	Component:  Yes/No Opening (31)
+		Item: 31_001 - So lets see, for the record, you are [ANIMAL NAME] , right? 2
+		Item: 31_002 - 2) And is this  your third  recording session for the project? 3
+		Item: 31_003 - 3) Is there anything unclear with the instructions so far? 4
+		Item: 31_004 - 4) Would you like me to explain the process again? 5
+		Item: 31_005 - 5) Do you have any questions about the task? 6
+		Item: 31_006 - 6) Can you see the screen? 7
+		Item: 31_007 - 7) Are you comfortable with the position of the chair and the microphone? 8
+		Item: 31_008 - 8 ) Shall we start then? 9
+	Component:  Words - Session 3 (v2) (33)
+		Item: 33_001 - bant
+		Item: 33_002 - poodle
+		Item: 33_003 - heed
+		Item: 33_004 - gulf
+		Item: 33_005 - methyl
+		Item: 33_006 - hinges
+		Item: 33_007 - barrack
+		Item: 33_008 - cult
+		Item: 33_009 - hunter
+		Item: 33_010 - delete
+		Item: 33_011 - herd
+		Item: 33_012 - bend
+		Item: 33_013 - pull
+		Item: 33_014 - sore
+		Item: 33_015 - who
+		Item: 33_016 - roar
+		Item: 33_017 - vision
+		Item: 33_018 - Rosas
+		Item: 33_019 - hort sounds like port
+		Item: 33_020 - Col
+		Item: 33_021 - tomato
+		Item: 33_022 - heared sounds like beard
+		Item: 33_023 - lonely
+		Item: 33_024 - golf
+		Item: 33_025 - you
+		Item: 33_026 - hell
+		Item: 33_027 - wagon
+		Item: 33_028 - hod sounds like pod
+		Item: 33_029 - then
+		Item: 33_030 - lore
+		Item: 33_031 - pillion
+		Item: 33_032 - drew
+		Item: 33_033 - satchel
+		Item: 33_034 - hard
+		Item: 33_035 - haggle
+		Item: 33_036 - alibi
+		Item: 33_037 - million
+		Item: 33_038 - giant
+		Item: 33_039 - hoot
+		Item: 33_040 - ran
+		Item: 33_041 - bet
+		Item: 33_042 - horde
+		Item: 33_043 - Al
+		Item: 33_044 - hut
+		Item: 33_045 - whod
+		Item: 33_046 - saw
+		Item: 33_047 - Paris
+		Item: 33_048 - Hal
+		Item: 33_049 - than
+		Item: 33_050 - heart
+		Item: 33_051 - school
+		Item: 33_052 - balcony
+		Item: 33_053 - to
+		Item: 33_054 - vaccine
+		Item: 33_055 - hull sounds like dull
+		Item: 33_056 - influenza
+		Item: 33_057 - drawing
+		Item: 33_058 - pool
+		Item: 33_059 - only
+		Item: 33_060 - ballot
+		Item: 33_061 - hoon sounds like moon
+		Item: 33_062 - bent
+		Item: 33_063 - fatigue
+		Item: 33_064 - tore
+		Item: 33_065 - mascara
+		Item: 33_066 - had
+		Item: 33_067 - dormitory
+		Item: 33_068 - hoin sounds like coin
+		Item: 33_069 - pent
+		Item: 33_070 - porcupine
+		Item: 33_071 - own
+		Item: 33_072 - mellow
+		Item: 33_073 - hode sounds like mode
+		Item: 33_074 - Polish
+		Item: 33_075 - alligator
+		Item: 33_076 - tassel
+		Item: 33_077 - threw
+		Item: 33_078 - pill
+		Item: 33_079 - hot
+		Item: 33_080 - Melbourne
+		Item: 33_081 - law
+		Item: 33_082 - het sounds like bet
+		Item: 33_083 - cold
+		Item: 33_084 - guitar
+		Item: 33_085 - heen sounds like keen
+		Item: 33_086 - fashion
+		Item: 33_087 - hall
+		Item: 33_088 - shudder
+		Item: 33_089 - tune
+		Item: 33_090 - pet
+		Item: 33_091 - hoil sounds like boil
+		Item: 33_092 - band
+		Item: 33_093 - chicken
+		Item: 33_094 - heat
+		Item: 33_095 - spider
+		Item: 33_096 - war
+		Item: 33_097 - pand
+		Item: 33_098 - view
+		Item: 33_099 - howl
+		Item: 33_100 - macaroni
+		Item: 33_101 - bassinette
+		Item: 33_102 - hill
+		Item: 33_103 - pen
+		Item: 33_104 - hurn sounds like burn
+		Item: 33_105 - anaemia
+		Item: 33_106 - hear
+		Item: 33_107 - paddle
+		Item: 33_108 - hane sounds like cane
+		Item: 33_109 - panel
+		Item: 33_110 - roaring
+		Item: 33_111 - Halloween
+		Item: 33_112 - poor
+		Item: 33_113 - polish
+		Item: 33_114 - sure
+		Item: 33_115 - epidemic
+		Item: 33_116 - Scorpio
+		Item: 33_117 - tackle
+		Item: 33_118 - butler
+		Item: 33_119 - holl sounds like doll
+		Item: 33_120 - parish
+		Item: 33_121 - hoit
+		Item: 33_122 - cube
+		Item: 33_123 - pillar
+		Item: 33_124 - syrup
+		Item: 33_125 - pend sounds like bend
+		Item: 33_126 - cousin
+		Item: 33_127 - hurl
+		Item: 33_128 - abandon
+		Item: 33_129 - June
+		Item: 33_130 - adapt
+		Item: 33_131 - hunger
+		Item: 33_132 - sterile
+		Item: 33_133 - constellation
+		Item: 33_134 - mallow
+		Item: 33_135 - helicopter
+		Item: 33_136 - pour
+		Item: 33_137 - sheriff
+		Item: 33_138 - gallop
+		Item: 33_139 - Ben
+		Item: 33_140 - hurrah
+		Item: 33_141 - hud sounds like mud
+		Item: 33_142 - avocado
+		Item: 33_143 - anatomy
+		Item: 33_144 - hay
+		Item: 33_145 - wren
+		Item: 33_146 - Mel
+		Item: 33_147 - tuner
+		Item: 33_148 - hown sounds like town
+		Item: 33_149 - tiger
+		Item: 33_150 - hi
+		Item: 33_151 - melancholy
+		Item: 33_152 - coyote
+		Item: 33_153 - bazooka
+		Item: 33_154 - imagine
+		Item: 33_155 - hid
+		Item: 33_156 - banish
+		Item: 33_157 - he
+		Item: 33_158 - Malcolm
+		Item: 33_159 - recipe
+		Item: 33_160 - hote sounds like wrote
+		Item: 33_161 - adjust
+		Item: 33_162 - hole
+		Item: 33_163 - dabble
+		Item: 33_164 - hail
+		Item: 33_165 - shrew
+		Item: 33_166 - mill
+		Item: 33_167 - hah
+		Item: 33_168 - strew
+		Item: 33_169 - doll
+		Item: 33_170 - manufacture
+		Item: 33_171 - girl
+		Item: 33_172 - relish
+		Item: 33_173 - voodoo
+		Item: 33_174 - pew
+		Item: 33_175 - battle
+		Item: 33_176 - Australia
+		Item: 33_177 - axle
+		Item: 33_178 - museum
+		Item: 33_179 - haired sounds like scared
+		Item: 33_180 - puffin
+		Item: 33_181 - Alan
+		Item: 33_182 - hoe
+		Item: 33_183 - plant
+		Item: 33_184 - horn
+		Item: 33_185 - lure
+		Item: 33_186 - bullock
+		Item: 33_187 - sawing
+		Item: 33_188 - pills
+		Item: 33_189 - ped
+		Item: 33_190 - alfalfa
+		Item: 33_191 - souvenir
+		Item: 33_192 - bad
+		Item: 33_193 - mills
+		Item: 33_194 - pyramid
+		Item: 33_195 - gavel
+		Item: 33_196 - heathen
+		Item: 33_197 - flounder
+		Item: 33_198 - Nigel
+		Item: 33_199 - pillow
+		Item: 33_200 - true
+		Item: 33_201 - elbow
+		Item: 33_202 - noose
+		Item: 33_203 - hit
+		Item: 33_204 - raw
+		Item: 33_205 - hood
+		Item: 33_206 - sudden
+		Item: 33_207 - roses
+		Item: 33_208 - evaporate
+		Item: 33_209 - tour
+		Item: 33_210 - hate
+		Item: 33_211 - aluminium
+		Item: 33_212 - happen
+		Item: 33_213 - dew
+		Item: 33_214 - raffle
+		Item: 33_215 - carriage
+		Item: 33_216 - Ninjas
+		Item: 33_217 - pat
+		Item: 33_218 - thunder
+		Item: 33_219 - due
+		Item: 33_220 - album
+		Item: 33_221 - vegemite
+		Item: 33_222 - how
+		Item: 33_223 - onion
+		Item: 33_224 - corridor
+		Item: 33_225 - hen
+		Item: 33_226 - rude
+		Item: 33_227 - comply
+		Item: 33_228 - bed
+		Item: 33_229 - han sounds like pan
+		Item: 33_230 - shore
+		Item: 33_231 - bat
+		Item: 33_232 - hin sounds like tin
+		Item: 33_233 - new
+		Item: 33_234 - hon sounds like con
+		Item: 33_235 - oven
+		Item: 33_236 - cauliflower
+		Item: 33_237 - wholl
+		Item: 33_238 - cabin
+		Item: 33_239 - hoyd sounds like Boyd
+		Item: 33_240 - kitchen
+		Item: 33_241 - pure
+		Item: 33_242 - heel
+		Item: 33_243 - epilepsy
+		Item: 33_244 - diabetes
+		Item: 33_245 - palace
+		Item: 33_246 - apple
+		Item: 33_247 - head
+		Item: 33_248 - draw
+		Item: 33_249 - serenade
+		Item: 33_250 - Wran
+		Item: 33_251 - h arl sounds like Carl
+		Item: 33_252 - Shaw
+		Item: 33_253 - hat
+		Item: 33_254 - mirror
+		Item: 33_255 - hooll sounds like full
+		Item: 33_256 - pyjamas
+		Item: 33_257 - stew
+		Item: 33_258 - parrot
+		Item: 33_259 - Elle
+		Item: 33_260 - triumph
+		Item: 33_261 - kazoo
+		Item: 33_262 - howd sounds like crowd
+		Item: 33_263 - slowly
+		Item: 33_264 - curl
+		Item: 33_265 - miller
+		Item: 33_266 - pole
+		Item: 33_267 - hore sounds like sore
+		Item: 33_268 - curriculum
+		Item: 33_269 - closet
+		Item: 33_270 - height
+		Item: 33_271 - hun sounds like fun
+		Item: 33_272 - facial
+		Item: 33_273 - alimony
+		Item: 33_274 - gazelle
+		Item: 33_275 - dole
+		Item: 33_276 - banner
+		Item: 33_277 - slow
+		Item: 33_278 - kangaroo
+		Item: 33_279 - hade sounds like made
+		Item: 33_280 - conspicuous
+		Item: 33_281 - dance
+		Item: 33_282 - hoott sounds like foot
+		Item: 33_283 - taw
+		Item: 33_284 - feel
+		Item: 33_285 - amphibian
+		Item: 33_286 - howt sounds like shout
+		Item: 33_287 - her
+		Item: 33_288 - silhouette
+		Item: 33_289 - coal
+		Item: 33_290 - hine sounds like pine
+		Item: 33_291 - Ethan
+		Item: 33_292 - paw
+		Item: 33_293 - ban
+		Item: 33_294 - hone sounds like bone
+		Item: 33_295 - do
+		Item: 33_296 - hoy sounds like boy
+		Item: 33_297 - chew
+		Item: 33_298 - Mal
+		Item: 33_299 - pan
+		Item: 33_300 - lighthouse
+		Item: 33_301 - tuna
+		Item: 33_302 - caterpillar
+		Item: 33_303 - hair
+		Item: 33_304 - alien
+		Item: 33_305 - shutter
+		Item: 33_306 - pant
+		Item: 33_307 - colt
+		Item: 33_308 - methane
+		Item: 33_309 - button
+		Item: 33_310 - carol
+		Item: 33_311 - paranoia
+		Item: 33_312 - hide
+		Item: 33_313 - pad
+		Item: 33_314 - Ellen
+		Item: 33_315 - listen
+		Item: 33_316 - hurt
+		Item: 33_317 - tangerine
+		Item: 33_318 - harn sounds like barn
+		Item: 33_319 - leaf
+		Item: 33_320 - masquerade
+		Item: 33_321 - hile sounds like tile
+		Item: 33_322 - camel
+	Component:  Map Task 1 (8)
+		Item: 8_001 - Map Task 2
+Session 3.2
+	Component:  Map Task 2 (10)
+		Item: 10_001 - Map Task 2
+	Component:  Conversation (12)
+		Item: 12_001 - Conversation 2
+	Component:  Words - Session 3 (v2) (33)
+		Item: 33_001 - bant
+		Item: 33_002 - poodle
+		Item: 33_003 - heed
+		Item: 33_004 - gulf
+		Item: 33_005 - methyl
+		Item: 33_006 - hinges
+		Item: 33_007 - barrack
+		Item: 33_008 - cult
+		Item: 33_009 - hunter
+		Item: 33_010 - delete
+		Item: 33_011 - herd
+		Item: 33_012 - bend
+		Item: 33_013 - pull
+		Item: 33_014 - sore
+		Item: 33_015 - who
+		Item: 33_016 - roar
+		Item: 33_017 - vision
+		Item: 33_018 - Rosas
+		Item: 33_019 - hort sounds like port
+		Item: 33_020 - Col
+		Item: 33_021 - tomato
+		Item: 33_022 - heared sounds like beard
+		Item: 33_023 - lonely
+		Item: 33_024 - golf
+		Item: 33_025 - you
+		Item: 33_026 - hell
+		Item: 33_027 - wagon
+		Item: 33_028 - hod sounds like pod
+		Item: 33_029 - then
+		Item: 33_030 - lore
+		Item: 33_031 - pillion
+		Item: 33_032 - drew
+		Item: 33_033 - satchel
+		Item: 33_034 - hard
+		Item: 33_035 - haggle
+		Item: 33_036 - alibi
+		Item: 33_037 - million
+		Item: 33_038 - giant
+		Item: 33_039 - hoot
+		Item: 33_040 - ran
+		Item: 33_041 - bet
+		Item: 33_042 - horde
+		Item: 33_043 - Al
+		Item: 33_044 - hut
+		Item: 33_045 - whod
+		Item: 33_046 - saw
+		Item: 33_047 - Paris
+		Item: 33_048 - Hal
+		Item: 33_049 - than
+		Item: 33_050 - heart
+		Item: 33_051 - school
+		Item: 33_052 - balcony
+		Item: 33_053 - to
+		Item: 33_054 - vaccine
+		Item: 33_055 - hull sounds like dull
+		Item: 33_056 - influenza
+		Item: 33_057 - drawing
+		Item: 33_058 - pool
+		Item: 33_059 - only
+		Item: 33_060 - ballot
+		Item: 33_061 - hoon sounds like moon
+		Item: 33_062 - bent
+		Item: 33_063 - fatigue
+		Item: 33_064 - tore
+		Item: 33_065 - mascara
+		Item: 33_066 - had
+		Item: 33_067 - dormitory
+		Item: 33_068 - hoin sounds like coin
+		Item: 33_069 - pent
+		Item: 33_070 - porcupine
+		Item: 33_071 - own
+		Item: 33_072 - mellow
+		Item: 33_073 - hode sounds like mode
+		Item: 33_074 - Polish
+		Item: 33_075 - alligator
+		Item: 33_076 - tassel
+		Item: 33_077 - threw
+		Item: 33_078 - pill
+		Item: 33_079 - hot
+		Item: 33_080 - Melbourne
+		Item: 33_081 - law
+		Item: 33_082 - het sounds like bet
+		Item: 33_083 - cold
+		Item: 33_084 - guitar
+		Item: 33_085 - heen sounds like keen
+		Item: 33_086 - fashion
+		Item: 33_087 - hall
+		Item: 33_088 - shudder
+		Item: 33_089 - tune
+		Item: 33_090 - pet
+		Item: 33_091 - hoil sounds like boil
+		Item: 33_092 - band
+		Item: 33_093 - chicken
+		Item: 33_094 - heat
+		Item: 33_095 - spider
+		Item: 33_096 - war
+		Item: 33_097 - pand
+		Item: 33_098 - view
+		Item: 33_099 - howl
+		Item: 33_100 - macaroni
+		Item: 33_101 - bassinette
+		Item: 33_102 - hill
+		Item: 33_103 - pen
+		Item: 33_104 - hurn sounds like burn
+		Item: 33_105 - anaemia
+		Item: 33_106 - hear
+		Item: 33_107 - paddle
+		Item: 33_108 - hane sounds like cane
+		Item: 33_109 - panel
+		Item: 33_110 - roaring
+		Item: 33_111 - Halloween
+		Item: 33_112 - poor
+		Item: 33_113 - polish
+		Item: 33_114 - sure
+		Item: 33_115 - epidemic
+		Item: 33_116 - Scorpio
+		Item: 33_117 - tackle
+		Item: 33_118 - butler
+		Item: 33_119 - holl sounds like doll
+		Item: 33_120 - parish
+		Item: 33_121 - hoit
+		Item: 33_122 - cube
+		Item: 33_123 - pillar
+		Item: 33_124 - syrup
+		Item: 33_125 - pend sounds like bend
+		Item: 33_126 - cousin
+		Item: 33_127 - hurl
+		Item: 33_128 - abandon
+		Item: 33_129 - June
+		Item: 33_130 - adapt
+		Item: 33_131 - hunger
+		Item: 33_132 - sterile
+		Item: 33_133 - constellation
+		Item: 33_134 - mallow
+		Item: 33_135 - helicopter
+		Item: 33_136 - pour
+		Item: 33_137 - sheriff
+		Item: 33_138 - gallop
+		Item: 33_139 - Ben
+		Item: 33_140 - hurrah
+		Item: 33_141 - hud sounds like mud
+		Item: 33_142 - avocado
+		Item: 33_143 - anatomy
+		Item: 33_144 - hay
+		Item: 33_145 - wren
+		Item: 33_146 - Mel
+		Item: 33_147 - tuner
+		Item: 33_148 - hown sounds like town
+		Item: 33_149 - tiger
+		Item: 33_150 - hi
+		Item: 33_151 - melancholy
+		Item: 33_152 - coyote
+		Item: 33_153 - bazooka
+		Item: 33_154 - imagine
+		Item: 33_155 - hid
+		Item: 33_156 - banish
+		Item: 33_157 - he
+		Item: 33_158 - Malcolm
+		Item: 33_159 - recipe
+		Item: 33_160 - hote sounds like wrote
+		Item: 33_161 - adjust
+		Item: 33_162 - hole
+		Item: 33_163 - dabble
+		Item: 33_164 - hail
+		Item: 33_165 - shrew
+		Item: 33_166 - mill
+		Item: 33_167 - hah
+		Item: 33_168 - strew
+		Item: 33_169 - doll
+		Item: 33_170 - manufacture
+		Item: 33_171 - girl
+		Item: 33_172 - relish
+		Item: 33_173 - voodoo
+		Item: 33_174 - pew
+		Item: 33_175 - battle
+		Item: 33_176 - Australia
+		Item: 33_177 - axle
+		Item: 33_178 - museum
+		Item: 33_179 - haired sounds like scared
+		Item: 33_180 - puffin
+		Item: 33_181 - Alan
+		Item: 33_182 - hoe
+		Item: 33_183 - plant
+		Item: 33_184 - horn
+		Item: 33_185 - lure
+		Item: 33_186 - bullock
+		Item: 33_187 - sawing
+		Item: 33_188 - pills
+		Item: 33_189 - ped
+		Item: 33_190 - alfalfa
+		Item: 33_191 - souvenir
+		Item: 33_192 - bad
+		Item: 33_193 - mills
+		Item: 33_194 - pyramid
+		Item: 33_195 - gavel
+		Item: 33_196 - heathen
+		Item: 33_197 - flounder
+		Item: 33_198 - Nigel
+		Item: 33_199 - pillow
+		Item: 33_200 - true
+		Item: 33_201 - elbow
+		Item: 33_202 - noose
+		Item: 33_203 - hit
+		Item: 33_204 - raw
+		Item: 33_205 - hood
+		Item: 33_206 - sudden
+		Item: 33_207 - roses
+		Item: 33_208 - evaporate
+		Item: 33_209 - tour
+		Item: 33_210 - hate
+		Item: 33_211 - aluminium
+		Item: 33_212 - happen
+		Item: 33_213 - dew
+		Item: 33_214 - raffle
+		Item: 33_215 - carriage
+		Item: 33_216 - Ninjas
+		Item: 33_217 - pat
+		Item: 33_218 - thunder
+		Item: 33_219 - due
+		Item: 33_220 - album
+		Item: 33_221 - vegemite
+		Item: 33_222 - how
+		Item: 33_223 - onion
+		Item: 33_224 - corridor
+		Item: 33_225 - hen
+		Item: 33_226 - rude
+		Item: 33_227 - comply
+		Item: 33_228 - bed
+		Item: 33_229 - han sounds like pan
+		Item: 33_230 - shore
+		Item: 33_231 - bat
+		Item: 33_232 - hin sounds like tin
+		Item: 33_233 - new
+		Item: 33_234 - hon sounds like con
+		Item: 33_235 - oven
+		Item: 33_236 - cauliflower
+		Item: 33_237 - wholl
+		Item: 33_238 - cabin
+		Item: 33_239 - hoyd sounds like Boyd
+		Item: 33_240 - kitchen
+		Item: 33_241 - pure
+		Item: 33_242 - heel
+		Item: 33_243 - epilepsy
+		Item: 33_244 - diabetes
+		Item: 33_245 - palace
+		Item: 33_246 - apple
+		Item: 33_247 - head
+		Item: 33_248 - draw
+		Item: 33_249 - serenade
+		Item: 33_250 - Wran
+		Item: 33_251 - h arl sounds like Carl
+		Item: 33_252 - Shaw
+		Item: 33_253 - hat
+		Item: 33_254 - mirror
+		Item: 33_255 - hooll sounds like full
+		Item: 33_256 - pyjamas
+		Item: 33_257 - stew
+		Item: 33_258 - parrot
+		Item: 33_259 - Elle
+		Item: 33_260 - triumph
+		Item: 33_261 - kazoo
+		Item: 33_262 - howd sounds like crowd
+		Item: 33_263 - slowly
+		Item: 33_264 - curl
+		Item: 33_265 - miller
+		Item: 33_266 - pole
+		Item: 33_267 - hore sounds like sore
+		Item: 33_268 - curriculum
+		Item: 33_269 - closet
+		Item: 33_270 - height
+		Item: 33_271 - hun sounds like fun
+		Item: 33_272 - facial
+		Item: 33_273 - alimony
+		Item: 33_274 - gazelle
+		Item: 33_275 - dole
+		Item: 33_276 - banner
+		Item: 33_277 - slow
+		Item: 33_278 - kangaroo
+		Item: 33_279 - hade sounds like made
+		Item: 33_280 - conspicuous
+		Item: 33_281 - dance
+		Item: 33_282 - hoott sounds like foot
+		Item: 33_283 - taw
+		Item: 33_284 - feel
+		Item: 33_285 - amphibian
+		Item: 33_286 - howt sounds like shout
+		Item: 33_287 - her
+		Item: 33_288 - silhouette
+		Item: 33_289 - coal
+		Item: 33_290 - hine sounds like pine
+		Item: 33_291 - Ethan
+		Item: 33_292 - paw
+		Item: 33_293 - ban
+		Item: 33_294 - hone sounds like bone
+		Item: 33_295 - do
+		Item: 33_296 - hoy sounds like boy
+		Item: 33_297 - chew
+		Item: 33_298 - Mal
+		Item: 33_299 - pan
+		Item: 33_300 - lighthouse
+		Item: 33_301 - tuna
+		Item: 33_302 - caterpillar
+		Item: 33_303 - hair
+		Item: 33_304 - alien
+		Item: 33_305 - shutter
+		Item: 33_306 - pant
+		Item: 33_307 - colt
+		Item: 33_308 - methane
+		Item: 33_309 - button
+		Item: 33_310 - carol
+		Item: 33_311 - paranoia
+		Item: 33_312 - hide
+		Item: 33_313 - pad
+		Item: 33_314 - Ellen
+		Item: 33_315 - listen
+		Item: 33_316 - hurt
+		Item: 33_317 - tangerine
+		Item: 33_318 - harn sounds like barn
+		Item: 33_319 - leaf
+		Item: 33_320 - masquerade
+		Item: 33_321 - hile sounds like tile
+		Item: 33_322 - camel
+	Component:  Yes/No Closing (9)
+		Item: 9_001 - 9) Ok. Thats it now, thanks.  Are you tired? 2
+		Item: 9_002 - 10) Did you feel nervous during the recording? 3
+		Item: 9_003 - 11) Do you have a busy day after this? 4
+		Item: 9_004 - 12) Does it take you long to get out here? 5
